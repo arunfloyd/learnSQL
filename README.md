@@ -226,9 +226,42 @@
          
          -> SELECT COALESCE(email,'Email not provided') FROM person;
 
-   ===> NULLIF Keyword        
+   ===> NULLIF Keyword       
 
+      Eg:-
 
+         -> SELECT 10 / NULLIF(0,2);
+         -> SELECT COALESCE (10 / NULLIF ( 0, 0), 0)
+          
+
+   ===> TIMESTAMP and DATES
+    
+      Eg:-
+
+         -> SELECT NOW();   ---> 2024-03-20 16:30:15.804443+05:30
+         -> SELECT NOW()::DATE;  ---> 2024-03-20
+
+   ===> Adding and Substracting With Dates 
+
+      Eg:-
+
+         -> SELECT NOW() -INTERVAL '10 YEARS';  ---> 2014-03-20 16:38:53.513771+05:30
+         -> SELECT NOW()::DATE +INTERVAL '12 DAYS';  ---> 2024-04-01
+   
+   ===> Extracting Fields From TimeStamp
+
+      Eg:-
+       
+        -> SELECT EXTRACT (MONTH FROM NOW())  ---> 3
+        -> SELECT EXTRACT (MONTH FROM NOW())  ---> 2024
+   
+   ===> Age Function  
+
+      Eg:-
+
+        -> SELECT first_name ,AGE(NOW(),"date of birth") AS age FROM person;
+              
+      
 
 
 
