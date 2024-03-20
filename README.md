@@ -1,4 +1,4 @@
-  film length = 41:00
+
   ===> Open the postSQL using TERIMINAL  in Ubuntu
            
            -> sudo -i -u postgres 
@@ -165,3 +165,83 @@
        ->  SELECT * FROM person WHERE email LIKE '---------@%' ;
 
        -> SELECT * FROM person WHERE first_name ILIKE 'p%' ;
+
+  ==> GROUP BY  keyword
+     -> To select a group of items to do the operation
+
+       Eg:- 
+         
+          -> SELECT "country of birth",COUNT(*) FROM person GROUP BY "country of birth";
+          -> SELECT "country of birth",COUNT(*) FROM person GROUP BY "country of birth" ORDER BY "country of birth";
+ 
+  ==> HAVING keyword
+     -> To specify any condition  
+
+      Eg:-
+         
+         ->SELECT "country of birth",COUNT(*) FROM person GROUP BY "country of birth" HAVING COUNT(*)>20 ORDER BY "country of birth";
+         ->SELECT "country of birth",COUNT(*) FROM person GROUP BY "country of birth" HAVING COUNT(*)>20 AND COUNT(*)<40 ORDER BY "country of birth";
+
+  ===> MAX , MIN and AVERAGE Keyword       
+
+     Eg:-
+      
+       -> SELECT MAX(price) FROM car;
+       -> SELECT MIN(price) FROM car;
+       -> SELECT AVG(price) FROM car;
+
+  ===> ROUND keyword 
+
+     Eg:-
+       
+       -> SELECT ROUND(AVG(price)) FROM car;
+   
+  ===> SUM operation
+   
+     Eg:-
+       
+       -> SELECT SUM(price) FROM car
+   
+   ===> Basic Of Arithmetic Operators     
+
+      Eg:-
+         
+        -> SELECT 10+2 
+        -> SELECT 10*2 
+        -> SELECT 10/2
+        -> SELECT 10^2 (Power)
+        -> SELECT 5!  (Factorial)
+        -> SELECT 10%3 (Modulus)
+
+   ===> Column name as ALIAS using AS keyword 
+     
+      Eg:-
+
+        -> SELECT id,make,model,price AS original_price,ROUND(price*.10,2) AS discount ,ROUND(price-(price * .10),2) AS Final_Price FROM car
+   
+   ===> COALESCE Keyword 
+        -> To give some default values when there is no such value present.
+
+      Eg:-
+         
+         -> SELECT COALESCE(email,'Email not provided') FROM person;
+
+   ===> NULLIF Keyword        
+
+
+
+
+
+
+ ===> Additional Work Outs
+
+      Eg:- 
+
+        -> SELECT make,model,MIN(PRICE) FROM car GROUP BY make,model;
+        -> SELECT make,SUM(price) FROM car GROUP BY make;
+
+   => Promotional Offers 
+
+      Eg:-To get the discount amount and the amount after the discount
+
+       -> SELECT id,make ,model,price,ROUND(price*.10),ROUND(price -(price* .10),2) FROM car;  
