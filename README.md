@@ -260,12 +260,126 @@
       Eg:-
 
         -> SELECT first_name ,AGE(NOW(),"date of birth") AS age FROM person;
-              
+
+   ===> PRIMARY KEYS 
+         => Uniquely identify a record in any tables      
+         
+   ===> To delete a constraint from the existing table
+
+          ->  ALTER TABLE table_name DROP CONSTRAINT constraint_name
       
+   ===> To add the constraint to a existing table 
 
+          -> ALTER TABLE table_name ADD PRIMARY KEY(fields_to_be_primary)
 
+   ===> Unique Constraints 
+         => Can only have the unique values in the column;
 
+         -> ALTER TABLE table_name ADD UNIQUE (field_name) 
+         -> ALTER TABLE table_name ADD CONSTRAINT create_a_name UNIQUE (field_name)
+ 
 
+   ==> Check Constraints 
+        => It allows to add a constraint based on  a boolean condition 
+
+         -> ALTER TABLE table_name ADD CONSTRAINT create_a_name CHECK (the_condition_can_here)
+
+      Eg:-
+         -> ALTER TABLE person ADD CONSTRAINT gender_constraints CHECK (gender='Female' OR gender ='Male');
+
+   ==> Delete from the table 
+        
+         -> DELETE FROM table_name WHERE mention_what_to_delete
+      
+      Eg:-
+         -> DELETE FROM person WHERE first_name = 'Ayn';
+
+         -> DELETE FROM person WHERE first_name = 'Ayn' AND gender ='Male';
+
+   ===> Upadate the records of the table     
+     
+         -> UPDATE table_name SET field_name = updating_value WHERE mention_the_row
+      
+      Eg:-
+
+        -> UPDATE person SET email ='arun@gmail.com' WHERE first_name = 'Nealy';
+        -> UPDATE person SET email ='arun@gmail.com',last_name = 'Near' WHERE first_name = 'Nealy';
+
+         
+   ===> On Conflict Do Nothing 
+
+      Eg:- 
+
+       -> INSERT INTO person (first_name, last_name, email, gender, "date of birth", "country of birth") 
+          VALUES ('Shelba', 'Laver',   null, 'Female', '2023-04-28', 'Philippines') ON CONFLICT(id) DO NOTHING;
+  
+   ===> Upsert 
+
+      Eg;- 
+
+       -> INSERT INTO person (first_name, last_name, email, gender, "date of birth", "country of birth") 
+          VALUES ('Shelba', 'Laver',   null, 'Female', '2023-04-28', 'Philippines') ON CONFLICT(id) DO UPDATE
+          SET email = EXCLUDED.first_email;
+
+   ===> Relationship / Foreign Key 
+         -> A foreign Key is a column that refernces a primary key in another table 
+   
+   ===> Adding Relationship between Tables 
+    
+       Eg:-
+
+         ->UPDATE person SET car_id =4 WHERE id = 5;
+
+   ==> INNER JOINS
+       -> It link the two table where the primary key and the foreign key are found in the same table. 
+       -> Combine two tables if there is a foreign key which is present on the tables then it will combine and create a new record  
+
+       Eg:-
+
+         -> SELECT * FROM person JOIN car ON person.car_id = car.id;
+         -> SELECT person.first_name ,car.make ,car.model ,car.price FROM person JOIN car ON person.car_id = car.id; 
+      
+   ==> LEFT JOINS
+        -> It is a type of join operation that returns all records from the left table (table1) and
+           the matched records from the right table (table2).
+        -> If there are no matching records in the right table, NULL values are returned for the columns from the right table.
+
+        Eg;- 
+
+         -> SELECT * FROM person LEFT JOIN car ON person.car_id = car.id; 
+
+   ==> Delete Records Within Foreign Keys
+     -> If we try to delete a value which was having the foreign key it doesnt works.
+     -> So to do so we have to delete the refered value first and then do the same.
+
+   ==> Exporting Query Results to CSV 
+
+     -> \copy (Query for making the result to be exported) TO location_to_save_with_filename DELIMITER ',' CSV HEADER;
+
+    Eg:-
+
+     -> \copy (SELECT * FROM person LEFT JOIN car ON person.car_id = car.id);
+
+   ==> Restart the Sequence
+
+     -> ALTER SEQUENCE name_of_the_sequence RESTART WITH any_number
+
+     Eg:-
+
+     -> ALTER SEQUENCE person_id_seq RESTART WITH 10
+        
+   ==> Download a new Extension 
+       
+       -> CREATE EXTENSION IF NOT EXISTS 'Extension Name'
+    Eg:-
+
+       -> CREATE EXTENSION IF NOT EXISTS "uuid-ossp"; 
+   ==> Use the Extension 
+
+     Eg:- 
+
+       -> SELECT uuid_generate_v4();
+       
  ===> Additional Work Outs
 
       Eg:- 
