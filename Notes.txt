@@ -1,0 +1,313 @@
+ 
+ >>> ACID properties in SQL
+
+   -> The ACID properties play a crucial role in ensuring the reliability and accuracy of transactions.
+
+    >> Atomicity:
+
+       Definition: It means that either all operations within a transaction are completed successfully, 
+                   or none of them are.
+                   There should be no partial execution of a transaction.
+ 
+       Example: In SQL, if a transaction involves transferring money from one account to another,
+                atomicity ensures that both the debit from the source account and the credit to the
+                destination account occur together.
+                If one operation fails, the entire transaction is rolled back to maintain data consistency.
+    
+    >> Consistency:
+
+      Definition: Consistency ensures that only valid data is written to the database.
+                  It enforces integrity constraints to maintain the accuracy and correctness of data.
+   
+      Example: In SQL databases, consistency checks are performed before committing a transaction to ensure
+               that the data remains consistent with defined constraints and rules.
+               For instance, if a transaction violates a constraint, it will be blocked to prevent data corruption.            
+
+    >> Isolation:
+
+      Definition: Isolation ensures that transactions run independently without interfering with each other.
+                  Changes made by one transaction are isolated from other transactions until they are committed.
+      
+      Example: In SQL databases, isolation prevents issues like dirty reads, lost updates, and non-repeatable reads.
+               Transactions are executed independently to maintain data integrity across concurrent transactions.          
+
+    >> Durability:
+
+      Definition: Durability guarantees that once a transaction is committed, the changes are permanently recorded 
+                  in the database even in the event of system failures.
+                  Committed transactions should persist and not be lost.
+ 
+      Example: In SQL databases, durability ensures that the changes made by a committed transaction are durable and
+               will survive system failures. 
+               This is achieved through mechanisms like transaction logs and database backups.            
+
+>>> Transactions
+  >> Transactions is a logical unit of work that consists of one or more SQL statements.
+     It allows for the execution of a sequence of operations as a single, atomic unit, ensuring that either all the operations are successfully completed,
+     or none of them are applied.
+     This helps maintain the integrity and consistency of the database.
+
+>>> Normalization
+  -> It is a database design technique used to organize data in a relational database efficiently.
+     It involves structuring a database schema to reduce redundancy and dependency by dividing large tables into smaller,
+     related tables.
+  -> Normalization helps in minimizing data duplication and ensures data integrity,
+     making the database more flexible, scalable, and easier to maintain.
+  
+  >> The most common normal forms are:
+    
+    -> First Normal Form (1NF):
+
+       > Ensures that each column in a table contains atomic values (indivisible data elements).
+       > Eliminates repeating groups and ensures each field contains a single value.
+       
+       > Example:-
+            Breaking down a table of customer information into separate tables for customer details, orders, and addresses.
+    
+    -> Second Normal Form (2NF):
+       
+       > Meets the requirements of 1NF and ensures that all non-key attributes are fully functional dependent on the primary key.
+       > Eliminates partial dependencies where attributes depend on only a part of the primary key.
+       
+       > Example: Splitting a table containing order details into separate tables for orders and order line items.
+
+    -> Third Normal Form (3NF): 
+
+       > Meets the requirements of 2NF and eliminates transitive dependencies.
+       > Ensures that non-key attributes are not dependent on other non-key attributes.
+
+       > Example: Breaking down a table of employee information into separate tables for employees, departments, and projects.
+
+    -> Boyce-Codd Normal Form (BCNF):
+
+       > A stricter form of 3NF that eliminates all non-trivial functional dependencies.
+       > Ensures that every determinant is a candidate key.
+       
+       > Example: Ensuring that a table of student information is in BCNF by removing any non-trivial functional dependencies.   
+
+>>> Constraint 
+
+  >> Constraint are rules defined on a database table that enforce data integrity and consistency by specifying limits 
+     or conditions for the data that can be stored in the table.
+
+     Constraints ensure that the data meets certain criteria and prevent the insertion of invalid or inconsistent data
+     into the database.
+   
+   -> Types of Constraints
+
+       > NOT NULL Constraint: Ensures that a column cannot store NULL values.
+       > UNIQUE Constraint: Ensures that all values in a column are unique.
+       > PRIMARY KEY Constraint: Uniquely identifies each record in a table.
+       > FOREIGN KEY Constraint: Establishes a relationship between two tables.
+       > CHECK Constraint: Validates the data before insertion or update based on a condition.
+       > DEFAULT Constraint: Sets a default value for a column if no value is specified during insertion.
+       > CREATE INDEX Constraint: Used to speed up data retrieval by creating an index on a column.
+
+>>> Relationships
+  >> Relationships between tables are established to define how the data in one table is related to the data in another table.
+     These relationships are crucial for maintaining data integrity and for querying and retrieving related data efficiently.
+    
+    -> One-to-One Relationship: In a one-to-one relationship, each record in the first table is related to exactly 
+                                one record in the second table, and vice versa.
+
+    -> One-to-Many Relationship: In a one-to-many relationship, each record in the first table can be related to multiple records
+                                 in the second table, but each record in the second table is related to only one record in 
+                                 the first table.
+    
+    -> Many-to-Many Relationship: In a many-to-many relationship, each record in the first table can be related to multiple records 
+                                  in the second table, and vice versa.                              
+
+                            
+>>> Joins 
+
+  >> Joins are used to combine rows from two or more tables based on a related column between them.
+
+     Joins allow you to retrieve data from multiple tables in a single query by specifying how the
+     tables are related to each other.
+    
+    -> There are different types of joins in SQL:
+       
+       > INNER JOIN: Returns rows when there is at least one match between the columns in the tables being joined.
+       
+       > LEFT JOIN (or LEFT OUTER JOIN): Returns all rows from the left table and the matched rows from the right table.
+                                        If there is no match, NULL values are returned for the columns from the right table.
+
+       > RIGHT JOIN (or RIGHT OUTER JOIN): Returns all rows from the right table and the matched rows from the left table.
+                                           If there is no match, NULL values are returned for the columns from the left table
+       
+       > FULL JOIN (or FULL OUTER JOIN): Returns rows when there is a match in either the left or right table.
+                                         It combines the results of both LEFT JOIN and RIGHT JOIN.
+
+       > CROSS JOIN: Returns the Cartesian product of the two tables, i.e., all possible combinations of rows from the tables.
+       
+>>> 3-Schema Architecture
+  
+  >> The three-schema architecture in SQL, also known as ANSI/SPARC architecture or three-level architecture,
+     is a design approach that separates the database into three levels to provide a clear distinction between 
+     the user applications and the physical database.
+     
+     This architecture is used to enhance data independence, maintainability, and security by separating the user's
+     view from the physical structure of the database.
+
+    -> The three levels of the three-schema architecture are as follows:  
+
+      > External Level (View Level): This is the highest level of abstraction and includes multiple external schemas or user views.
+                                     Each external schema provides a specific view of the database for a particular user or user group,
+                                     tailored to their needs.
+                                     
+                                     It hides unnecessary details and provides a flexible security mechanism by controlling access to 
+                                     specific parts of the database.
+     
+      > Conceptual Level (Logical Level): The conceptual schema describes the overall logical structure of the entire database.
+                                          It defines what data is to be stored in the database and the relationships that exist among the data.
+                                          
+                                          This level acts as a middle layer between the physical storage and user view,
+                                          and it hides the internal details such as the implementation of data structures.
+     
+      > Internal Level (Physical Level): This is the lowest level of abstraction and contains the internal schema, which describes the physical
+                                         storage structure of the database.
+                                         
+                                         It deals with the physical data model and defines how the data will be stored in the database.
+                                         
+                                         The internal level is concerned with activities such as storage space allocation, access paths,
+                                         data compression, encryption techniques, and optimization of internal structures.
+
+>>> Indexing
+
+  >> It is a technique used to improve the performance of queries by creating indexes on columns in database tables.
+     An index is a data structure that allows for faster retrieval of data based on the values in the indexed columns.
+     When a query is executed that involves the indexed columns, the database engine can use the index to quickly locate
+     the rows that satisfy the query conditions, reducing the need for a full table scan.
+                               
+    -> Here are some key points about indexing in SQL:
+      
+      > Types of Indexes :-
+
+        > Primary Index: Automatically created when defining a primary key constraint on a column.
+                         It enforces uniqueness and provides fast access to rows.
+
+        > Unique Index: Ensures that all values in the indexed column are unique, similar to a primary key.
+
+        > Clustered Index: Defines the physical order of data in a table based on the indexed column.
+                           Each table can have only one clustered index.
+
+        > Non-Clustered Index: Stores the index data separately from the actual table data, allowing for multiple non-clustered indexes on a table.
+    
+    -> Indexes can be created using the CREATE INDEX statement in SQL.   
+
+    -> Benefits of Indexing: 
+       
+       > Improves query performance by reducing the number of rows that need to be scanned.
+       > Speeds up data retrieval for SELECT, JOIN, and WHERE clauses.
+       > Enhances the efficiency of data modification operations like INSERT, UPDATE, and DELETE.
+
+>>> Aggregate functions 
+  
+  >> Aggregate functions are used to perform calculations on a set of values and return a single value.
+     These functions are commonly used to summarize data and are often paired with the GROUP BY clause to perform calculations on groups of rows.
+
+    -> The most commonly used aggregate functions in SQL are:
+      
+      > COUNT(): This function counts the number of rows in a particular column.
+                 It can also be used with COUNT(*) to count all the rows in a table.
+      > SUM(): The SUM function adds together all the values in a particular column, typically a numerical column.      
+      > MIN(): The MIN function returns the lowest (minimum) value in a particular column.
+      > MAX(): The MAX function returns the highest (maximum) value in a particular column.
+      > AVG(): The AVG function calculates the average of a group of selected values in a numerical column.
+
+>>> Scalar functions 
+
+  >> Scalar functions in SQL are user-defined or built-in functions that operate on a single value and return a single value.
+     These functions can be used within SQL queries to perform various operations on individual data values.
+     Some common examples of scalar functions include string manipulation functions, date and time functions, mathematical functions, 
+     and conversion functions.
+
+    -> String Functions:
+
+      > UPPER(): Converts a string to uppercase.
+      > LOWER(): Converts a string to lowercase.
+      > SUBSTRING(): Extracts a substring from a string.
+      > CHAR_LENGTH(): Returns the length of a string in characters.
+
+    -> Date and Time Functions:
+
+      > DATE_FORMAT(): Formats a date value based on a specified format.
+      > YEAR(): Extracts the year from a date.
+      > MONTH(): Extracts the month from a date.
+
+    -> Mathematical Functions:
+
+      > ABS(): Returns the absolute value of a number.
+      > ROUND(): Rounds a number to a specified number of decimal places.
+      > SQRT(): Returns the square root of a number.
+
+    -> Conversion Functions:
+
+     > CAST(): Converts a value from one data type to another.
+     > CONVERT(): Converts a value from one data type to another based on a specified style. 
+
+>>> Foreign key Primary key 
+
+  >> In SQL, a foreign key-primary key relationship is a fundamental concept in relational database design.
+     A foreign key is a column or a set of columns in a table that references the primary key columns in another table.
+     The primary key is defined as a column (or set of columns) where each value is unique and identifies a single row of the table.
+
+>>> Closure Table:
+  
+  >> A closure table is a separate table that maintains the transitive closure of the parent-child relationships in the base table.
+     It contains fields for "parent", "child", and "depth", allowing representation of the hierarchy to any depth present in the data.
+
+   -> Usage: Closure tables are particularly useful for scenarios where hierarchical data needs to be queried, traversed, and manipulated
+             efficiently, such as organizational charts, file systems, category hierarchies, and more.  
+
+     
+>>> GROUP BY clause :
+  >> It is used to group rows that have the same values into summary rows, allowing for the application of aggregate functions to these groups.
+     The GROUP BY clause is typically used in conjunction with aggregate functions such as COUNT(), MAX(), MIN(), SUM(), and AVG() to 
+     perform calculations on these groups.
+                                   
+>>> HAVING clause : 
+  >> It is used in conjunction with the GROUP BY clause to filter the results of a query based on a specified condition.
+     While the WHERE clause is used to filter rows before any grouping is performed, the HAVING clause filters the results of aggregate
+     functions after the grouping has taken place.
+
+>>> DML, DDL, DCL 
+
+  >> DML (Data Manipulation Language):
+   
+   -> DML commands are used to manipulate data within the database.
+   -> Common DML commands include SELECT, INSERT, UPDATE, and DELETE.
+   -> These commands are used to retrieve, add, modify, and remove data from the database tables.
+  
+  >> DDL (Data Definition Language):
+
+   -> DDL commands are used to define the structure of the database, including creating, altering, and dropping database objects.
+   -> Common DDL commands include CREATE, ALTER, and DROP.
+   -> These commands are used to define and manage the structure of the database, such as tables, indexes, views, and schemas.
+
+  >> DCL (Data Control Language):
+   
+   -> DCL commands are used to control access to the data within the database.
+   -> Common DCL commands include GRANT and REVOKE.
+   -> These commands are used to grant or revoke permissions and privileges to users and roles.
+
+ 
+
+
+
+
+                                
+
+
+
+    
+
+
+ 
+
+
+
+
+
+
+
