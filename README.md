@@ -5,7 +5,7 @@
   ===> then get inside the Postgres 
            
            -> psql
-  ==> QUit from it 
+  ==> Quit from it 
    
            ->  \q
   ==> To create a database 
@@ -64,11 +64,7 @@
            -> DROP TABLE table_name
 ===> Insert records into tables
            
-           -> INSERT INTO table_name (
-
-            table_colum names which the values should add
-
-           )
+           -> INSERT INTO table_name (table_colum names which the values should add)
            VALUES(values corresponding to the table_column);
 
             
@@ -137,7 +133,7 @@
   ==> Comparison Operators 
      -> We can use this in all data types
 
-         -> Not Equal to  ---  SELECT 1<>2; [true]
+         -> Not Equal to  ---  SELECT 1<>2; [True]
 
          -> Equal to ---  ---  SELECT 1=2; [False]
 
@@ -162,6 +158,7 @@
      Eg:-
       
        -> SELECT * FROM person WHERE email LIKE '%@gmail.com'
+
        ->  SELECT * FROM person WHERE email LIKE '---------@%' ;
 
        -> SELECT * FROM person WHERE first_name ILIKE 'p%' ;
@@ -172,6 +169,7 @@
        Eg:- 
          
           -> SELECT "country of birth",COUNT(*) FROM person GROUP BY "country of birth";
+
           -> SELECT "country of birth",COUNT(*) FROM person GROUP BY "country of birth" ORDER BY "country of birth";
  
   ==> HAVING keyword
@@ -179,15 +177,18 @@
 
       Eg:-
          
-         ->SELECT "country of birth",COUNT(*) FROM person GROUP BY "country of birth" HAVING COUNT(*)>20 ORDER BY "country of birth";
-         ->SELECT "country of birth",COUNT(*) FROM person GROUP BY "country of birth" HAVING COUNT(*)>20 AND COUNT(*)<40 ORDER BY "country of birth";
+         -> SELECT "country of birth",COUNT(*) FROM person GROUP BY "country of birth" HAVING COUNT(*)>20 ORDER BY "country of birth";
+
+         -> SELECT "country of birth",COUNT(*) FROM person GROUP BY "country of birth" HAVING COUNT(*)>20 AND COUNT(*)<40 ORDER BY "country of birth";
 
   ===> MAX , MIN and AVERAGE Keyword       
 
      Eg:-
       
        -> SELECT MAX(price) FROM car;
+
        -> SELECT MIN(price) FROM car;
+
        -> SELECT AVG(price) FROM car;
 
   ===> ROUND keyword 
@@ -207,10 +208,15 @@
       Eg:-
          
         -> SELECT 10+2 
+
         -> SELECT 10*2 
+
         -> SELECT 10/2
+
         -> SELECT 10^2 (Power)
+
         -> SELECT 5!  (Factorial)
+
         -> SELECT 10%3 (Modulus)
 
    ===> Column name as ALIAS using AS keyword 
@@ -227,10 +233,14 @@
          -> SELECT COALESCE(email,'Email not provided') FROM person;
 
    ===> NULLIF Keyword       
+       -> The NULLIF function in SQL is used to compare two expressions.
+          If the two expressions are equal, NULLIF returns NULL.
+          If the two expressions are not equal, NULLIF returns the first expression.
 
       Eg:-
 
          -> SELECT 10 / NULLIF(0,2);
+
          -> SELECT COALESCE (10 / NULLIF ( 0, 0), 0)
           
 
@@ -239,6 +249,7 @@
       Eg:-
 
          -> SELECT NOW();   ---> 2024-03-20 16:30:15.804443+05:30
+
          -> SELECT NOW()::DATE;  ---> 2024-03-20
 
    ===> Adding and Substracting With Dates 
@@ -246,6 +257,7 @@
       Eg:-
 
          -> SELECT NOW() -INTERVAL '10 YEARS';  ---> 2014-03-20 16:38:53.513771+05:30
+
          -> SELECT NOW()::DATE +INTERVAL '12 DAYS';  ---> 2024-04-01
    
    ===> Extracting Fields From TimeStamp
@@ -253,6 +265,7 @@
       Eg:-
        
         -> SELECT EXTRACT (MONTH FROM NOW())  ---> 3
+
         -> SELECT EXTRACT (MONTH FROM NOW())  ---> 2024
    
    ===> Age Function  
@@ -276,6 +289,7 @@
          => Can only have the unique values in the column;
 
          -> ALTER TABLE table_name ADD UNIQUE (field_name) 
+
          -> ALTER TABLE table_name ADD CONSTRAINT create_a_name UNIQUE (field_name)
  
 
@@ -303,6 +317,7 @@
       Eg:-
 
         -> UPDATE person SET email ='arun@gmail.com' WHERE first_name = 'Nealy';
+        
         -> UPDATE person SET email ='arun@gmail.com',last_name = 'Near' WHERE first_name = 'Nealy';
 
          

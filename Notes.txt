@@ -42,12 +42,14 @@
                This is achieved through mechanisms like transaction logs and database backups.            
 
 >>> Transactions
+
   >> Transactions is a logical unit of work that consists of one or more SQL statements.
      It allows for the execution of a sequence of operations as a single, atomic unit, ensuring that either all the operations are successfully completed,
      or none of them are applied.
      This helps maintain the integrity and consistency of the database.
 
 >>> Normalization
+
   -> It is a database design technique used to organize data in a relational database efficiently.
      It involves structuring a database schema to reduce redundancy and dependency by dividing large tables into smaller,
      related tables.
@@ -104,6 +106,7 @@
        > CREATE INDEX Constraint: Used to speed up data retrieval by creating an index on a column.
 
 >>> Relationships
+
   >> Relationships between tables are established to define how the data in one table is related to the data in another table.
      These relationships are crucial for maintaining data integrity and for querying and retrieving related data efficiently.
     
@@ -130,7 +133,7 @@
        > INNER JOIN: Returns rows when there is at least one match between the columns in the tables being joined.
        
        > LEFT JOIN (or LEFT OUTER JOIN): Returns all rows from the left table and the matched rows from the right table.
-                                        If there is no match, NULL values are returned for the columns from the right table.
+                                         If there is no match, NULL values are returned for the columns from the right table.
 
        > RIGHT JOIN (or RIGHT OUTER JOIN): Returns all rows from the right table and the matched rows from the left table.
                                            If there is no match, NULL values are returned for the columns from the left table
@@ -190,8 +193,10 @@
 
         > Clustered Index: Defines the physical order of data in a table based on the indexed column.
                            Each table can have only one clustered index.
+                       Eg: Dictionary
 
         > Non-Clustered Index: Stores the index data separately from the actual table data, allowing for multiple non-clustered indexes on a table.
+                           Eg: Book Index   
     
     -> Indexes can be created using the CREATE INDEX statement in SQL.   
 
@@ -200,6 +205,11 @@
        > Improves query performance by reducing the number of rows that need to be scanned.
        > Speeds up data retrieval for SELECT, JOIN, and WHERE clauses.
        > Enhances the efficiency of data modification operations like INSERT, UPDATE, and DELETE.
+
+    -> Difference :
+      > Clustered indexes physically reorder and store data rows in the table based on key values, leading to faster data retrieval.
+      > On the other hand, non-clustered indexes create a logical order separate from the physical storage, allowing for multiple indexes
+        but consuming more storage space.   
 
 >>> Aggregate functions 
   
@@ -224,9 +234,9 @@
 
     -> String Functions:
 
-      > UPPER(): Converts a string to uppercase.
-      > LOWER(): Converts a string to lowercase.
-      > SUBSTRING(): Extracts a substring from a string.
+      > UPPER() : Converts a string to uppercase.
+      > LOWER() : Converts a string to lowercase.
+      > SUBSTRING()  : Extracts a substring from a string.
       > CHAR_LENGTH(): Returns the length of a string in characters.
 
     -> Date and Time Functions:
@@ -262,16 +272,25 @@
 
      
 >>> GROUP BY clause :
+
   >> It is used to group rows that have the same values into summary rows, allowing for the application of aggregate functions to these groups.
      The GROUP BY clause is typically used in conjunction with aggregate functions such as COUNT(), MAX(), MIN(), SUM(), and AVG() to 
      perform calculations on these groups.
                                    
 >>> HAVING clause : 
+
   >> It is used in conjunction with the GROUP BY clause to filter the results of a query based on a specified condition.
      While the WHERE clause is used to filter rows before any grouping is performed, the HAVING clause filters the results of aggregate
      functions after the grouping has taken place.
 
->>> DML, DDL, DCL 
+
+>>> Triggers 
+  -> SQL triggers are powerful database objects that automatically run when certain events occur in a database.
+     There are three main types of triggers in SQL Server:
+                            -> DML (Data Manipulation Language) triggers,
+                            -> DDL (Data Definition Language) triggers, 
+                            -> logon triggers.
+  >> DML, DDL, DCL 
 
   >> DML (Data Manipulation Language):
    

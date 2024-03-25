@@ -3,1004 +3,1005 @@ CREATE TABLE car (
 	make VARCHAR(100) NOT NULL,
 	model VARCHAR(100) NOT NULL,
 	price NUMERIC(19,2) NOT NULL
-);
-insert into car (id, make, model, price) values (1, 'Lexus', 'GS', 94617.93);
-insert into car (id, make, model, price) values (2, 'Oldsmobile', 'Cutlass', 27641.54);
-insert into car (id, make, model, price) values (3, 'Honda', 'Insight', 38022.89);
-insert into car (id, make, model, price) values (4, 'Ford', 'Mustang', 36364.93);
-insert into car (id, make, model, price) values (5, 'Oldsmobile', 'Bravada', 66886.02);
-insert into car (id, make, model, price) values (6, 'Cadillac', 'Catera', 71034.08);
-insert into car (id, make, model, price) values (7, 'Mercedes-Benz', 'CLK-Class', 13143.98);
-insert into car (id, make, model, price) values (8, 'Subaru', 'XT', 81195.88);
-insert into car (id, make, model, price) values (9, 'Cadillac', 'Escalade', 41258.21);
-insert into car (id, make, model, price) values (10, 'Land Rover', 'Range Rover Sport', 16466.82);
-insert into car (id, make, model, price) values (11, 'Pontiac', 'Grand Prix', 90396.86);
-insert into car (id, make, model, price) values (12, 'Toyota', 'Paseo', 52458.91);
-insert into car (id, make, model, price) values (13, 'Oldsmobile', 'Achieva', 58424.48);
-insert into car (id, make, model, price) values (14, 'Honda', 'S2000', 83558.42);
-insert into car (id, make, model, price) values (15, 'Toyota', 'Paseo', 31237.57);
-insert into car (id, make, model, price) values (16, 'Suzuki', 'Grand Vitara', 66561.38);
-insert into car (id, make, model, price) values (17, 'Toyota', 'Land Cruiser', 51808.78);
-insert into car (id, make, model, price) values (18, 'Volvo', 'C70', 10918.09);
-insert into car (id, make, model, price) values (19, 'Mazda', 'Miata MX-5', 94066.66);
-insert into car (id, make, model, price) values (20, 'Geo', 'Metro', 73921.21);
-insert into car (id, make, model, price) values (21, 'Nissan', 'Armada', 34009.79);
-insert into car (id, make, model, price) values (22, 'Chevrolet', 'Silverado 1500', 71012.82);
-insert into car (id, make, model, price) values (23, 'Volkswagen', 'Jetta', 37126.80);
-insert into car (id, make, model, price) values (24, 'Audi', 'Q5', 72941.76);
-insert into car (id, make, model, price) values (25, 'Porsche', 'Boxster', 82226.61);
-insert into car (id, make, model, price) values (26, 'Mercedes-Benz', 'C-Class', 36669.59);
-insert into car (id, make, model, price) values (27, 'Oldsmobile', 'Bravada', 37009.26);
-insert into car (id, make, model, price) values (28, 'Lexus', 'ES', 71231.40);
-insert into car (id, make, model, price) values (29, 'Mercury', 'Tracer', 44602.81);
-insert into car (id, make, model, price) values (30, 'Toyota', 'Tacoma', 35063.46);
-insert into car (id, make, model, price) values (31, 'Volkswagen', 'Eurovan', 43144.01);
-insert into car (id, make, model, price) values (32, 'Mercury', 'Cougar', 84034.65);
-insert into car (id, make, model, price) values (33, 'Mercury', 'Mariner', 21504.58);
-insert into car (id, make, model, price) values (34, 'Buick', 'Regal', 26034.78);
-insert into car (id, make, model, price) values (35, 'Mitsubishi', 'Mirage', 46803.07);
-insert into car (id, make, model, price) values (36, 'Cadillac', 'Seville', 98870.64);
-insert into car (id, make, model, price) values (37, 'Subaru', 'Forester', 68112.31);
-insert into car (id, make, model, price) values (38, 'Audi', 'R8', 76476.11);
-insert into car (id, make, model, price) values (39, 'Audi', 'Q7', 31958.94);
-insert into car (id, make, model, price) values (40, 'Ford', 'Laser', 17327.48);
-insert into car (id, make, model, price) values (41, 'Toyota', 'Tundra', 53337.24);
-insert into car (id, make, model, price) values (42, 'Suzuki', 'Grand Vitara', 85686.22);
-insert into car (id, make, model, price) values (43, 'Mercury', 'Cougar', 99570.35);
-insert into car (id, make, model, price) values (44, 'Mitsubishi', 'Challenger', 57340.03);
-insert into car (id, make, model, price) values (45, 'Toyota', 'Camry Solara', 19392.72);
-insert into car (id, make, model, price) values (46, 'Chevrolet', 'Silverado', 64903.03);
-insert into car (id, make, model, price) values (47, 'Mitsubishi', 'Lancer', 19997.04);
-insert into car (id, make, model, price) values (48, 'Honda', 'Accord', 90101.76);
-insert into car (id, make, model, price) values (49, 'GMC', 'Sierra 1500', 40950.06);
-insert into car (id, make, model, price) values (50, 'Mazda', 'Mazda3', 23462.87);
-insert into car (id, make, model, price) values (51, 'Nissan', 'Pathfinder', 98313.81);
-insert into car (id, make, model, price) values (52, 'Honda', 'Accord', 44605.36);
-insert into car (id, make, model, price) values (53, 'Mercedes-Benz', 'SL-Class', 41699.57);
-insert into car (id, make, model, price) values (54, 'Maybach', '57', 16479.62);
-insert into car (id, make, model, price) values (55, 'Subaru', 'Forester', 76981.52);
-insert into car (id, make, model, price) values (56, 'Scion', 'xA', 74572.32);
-insert into car (id, make, model, price) values (57, 'Cadillac', 'SRX', 50728.50);
-insert into car (id, make, model, price) values (58, 'Lexus', 'LS Hybrid', 18616.60);
-insert into car (id, make, model, price) values (59, 'Suzuki', 'Aerio', 82297.72);
-insert into car (id, make, model, price) values (60, 'Chevrolet', 'Express 2500', 47509.92);
-insert into car (id, make, model, price) values (61, 'Acura', 'Integra', 14853.02);
-insert into car (id, make, model, price) values (62, 'Lincoln', 'Town Car', 82885.45);
-insert into car (id, make, model, price) values (63, 'Toyota', 'Tacoma', 18556.98);
-insert into car (id, make, model, price) values (64, 'Lincoln', 'Navigator L', 88553.79);
-insert into car (id, make, model, price) values (65, 'Lamborghini', 'Gallardo', 32263.66);
-insert into car (id, make, model, price) values (66, 'Ford', 'Escort', 13206.48);
-insert into car (id, make, model, price) values (67, 'Lexus', 'GS', 45250.75);
-insert into car (id, make, model, price) values (68, 'Pontiac', 'Daewoo Kalos', 69766.41);
-insert into car (id, make, model, price) values (69, 'Mercedes-Benz', 'SLS AMG', 96803.91);
-insert into car (id, make, model, price) values (70, 'Mazda', 'MX-5', 87190.26);
-insert into car (id, make, model, price) values (71, 'Isuzu', 'Ascender', 84906.53);
-insert into car (id, make, model, price) values (72, 'BMW', '645', 76862.97);
-insert into car (id, make, model, price) values (73, 'Chevrolet', 'Silverado', 75985.35);
-insert into car (id, make, model, price) values (74, 'Ford', 'Thunderbird', 44479.43);
-insert into car (id, make, model, price) values (75, 'Lexus', 'GX', 59460.72);
-insert into car (id, make, model, price) values (76, 'Subaru', 'XT', 47845.56);
-insert into car (id, make, model, price) values (77, 'Audi', 'S5', 15298.15);
-insert into car (id, make, model, price) values (78, 'Audi', '4000', 87822.65);
-insert into car (id, make, model, price) values (79, 'Buick', 'Skyhawk', 23506.31);
-insert into car (id, make, model, price) values (80, 'GMC', 'Rally Wagon 2500', 36791.54);
-insert into car (id, make, model, price) values (81, 'Audi', 'A6', 74037.12);
-insert into car (id, make, model, price) values (82, 'MINI', 'Clubman', 19470.61);
-insert into car (id, make, model, price) values (83, 'Mazda', 'Miata MX-5', 98883.29);
-insert into car (id, make, model, price) values (84, 'Lincoln', 'Zephyr', 25137.59);
-insert into car (id, make, model, price) values (85, 'Mazda', '929', 88432.86);
-insert into car (id, make, model, price) values (86, 'Mercedes-Benz', 'R-Class', 62817.54);
-insert into car (id, make, model, price) values (87, 'Ford', 'Explorer Sport Trac', 28665.40);
-insert into car (id, make, model, price) values (88, 'Mercedes-Benz', 'SLK-Class', 74690.80);
-insert into car (id, make, model, price) values (89, 'Dodge', 'Neon', 65388.61);
-insert into car (id, make, model, price) values (90, 'Buick', 'Skylark', 52227.53);
-insert into car (id, make, model, price) values (91, 'Hyundai', 'Accent', 48787.69);
-insert into car (id, make, model, price) values (92, 'Chrysler', 'Crossfire', 10575.85);
-insert into car (id, make, model, price) values (93, 'Oldsmobile', 'Achieva', 49366.27);
-insert into car (id, make, model, price) values (94, 'Volkswagen', 'Cabriolet', 44137.57);
-insert into car (id, make, model, price) values (95, 'Pontiac', 'LeMans', 22252.67);
-insert into car (id, make, model, price) values (96, 'Chevrolet', 'Camaro', 10812.78);
-insert into car (id, make, model, price) values (97, 'Mercedes-Benz', 'SL-Class', 79219.10);
-insert into car (id, make, model, price) values (98, 'Plymouth', 'Neon', 76003.27);
-insert into car (id, make, model, price) values (99, 'Mercedes-Benz', 'M-Class', 56387.84);
-insert into car (id, make, model, price) values (100, 'Chevrolet', 'Suburban 1500', 49535.98);
-insert into car (id, make, model, price) values (101, 'Ford', 'GT500', 25368.88);
-insert into car (id, make, model, price) values (102, 'Mercedes-Benz', 'S-Class', 56194.57);
-insert into car (id, make, model, price) values (103, 'Nissan', 'Sentra', 95818.54);
-insert into car (id, make, model, price) values (104, 'Lexus', 'SC', 66463.00);
-insert into car (id, make, model, price) values (105, 'Jaguar', 'XJ', 89463.59);
-insert into car (id, make, model, price) values (106, 'Nissan', 'Quest', 61924.31);
-insert into car (id, make, model, price) values (107, 'Acura', 'TL', 39823.75);
-insert into car (id, make, model, price) values (108, 'Volvo', 'C70', 60035.04);
-insert into car (id, make, model, price) values (109, 'Ford', 'Expedition', 84041.16);
-insert into car (id, make, model, price) values (110, 'Acura', 'SLX', 46898.46);
-insert into car (id, make, model, price) values (111, 'BMW', 'X3', 43013.40);
-insert into car (id, make, model, price) values (112, 'BMW', 'M5', 33050.97);
-insert into car (id, make, model, price) values (113, 'Dodge', 'Ram Wagon B350', 23638.49);
-insert into car (id, make, model, price) values (114, 'Dodge', 'Caravan', 50408.42);
-insert into car (id, make, model, price) values (115, 'Volkswagen', 'Jetta', 10353.21);
-insert into car (id, make, model, price) values (116, 'Volvo', 'V50', 23715.09);
-insert into car (id, make, model, price) values (117, 'Jeep', 'Cherokee', 70105.90);
-insert into car (id, make, model, price) values (118, 'Chevrolet', 'Impala', 17254.48);
-insert into car (id, make, model, price) values (119, 'Mitsubishi', 'Truck', 18504.45);
-insert into car (id, make, model, price) values (120, 'Dodge', 'Avenger', 44119.23);
-insert into car (id, make, model, price) values (121, 'Honda', 'Accord', 72081.37);
-insert into car (id, make, model, price) values (122, 'Jaguar', 'XJ Series', 69925.66);
-insert into car (id, make, model, price) values (123, 'Lexus', 'IS-F', 20520.13);
-insert into car (id, make, model, price) values (124, 'Dodge', 'Spirit', 68425.99);
-insert into car (id, make, model, price) values (125, 'Suzuki', 'Grand Vitara', 10282.34);
-insert into car (id, make, model, price) values (126, 'Pontiac', 'Grand Prix', 53793.42);
-insert into car (id, make, model, price) values (127, 'Mitsubishi', 'Mirage', 14004.33);
-insert into car (id, make, model, price) values (128, 'Mercury', 'Sable', 36718.67);
-insert into car (id, make, model, price) values (129, 'Mitsubishi', 'Diamante', 34284.85);
-insert into car (id, make, model, price) values (130, 'Mercedes-Benz', 'E-Class', 76399.57);
-insert into car (id, make, model, price) values (131, 'Hummer', 'H3T', 97624.04);
-insert into car (id, make, model, price) values (132, 'Toyota', 'Tundra', 35185.79);
-insert into car (id, make, model, price) values (133, 'Infiniti', 'I', 62666.71);
-insert into car (id, make, model, price) values (134, 'Audi', 'A6', 98420.96);
-insert into car (id, make, model, price) values (135, 'Isuzu', 'Ascender', 69131.57);
-insert into car (id, make, model, price) values (136, 'Ford', 'Ranger', 84202.14);
-insert into car (id, make, model, price) values (137, 'Chevrolet', 'Corvette', 67772.77);
-insert into car (id, make, model, price) values (138, 'Lincoln', 'Continental', 75003.75);
-insert into car (id, make, model, price) values (139, 'Volvo', '850', 14426.88);
-insert into car (id, make, model, price) values (140, 'Dodge', 'Grand Caravan', 61096.81);
-insert into car (id, make, model, price) values (141, 'Buick', 'Electra', 99748.43);
-insert into car (id, make, model, price) values (142, 'Mitsubishi', 'Lancer', 57881.23);
-insert into car (id, make, model, price) values (143, 'Lincoln', 'Town Car', 45379.26);
-insert into car (id, make, model, price) values (144, 'Ford', 'E250', 58391.39);
-insert into car (id, make, model, price) values (145, 'Nissan', 'Sentra', 36244.03);
-insert into car (id, make, model, price) values (146, 'Chevrolet', 'Suburban', 42804.37);
-insert into car (id, make, model, price) values (147, 'Audi', 'riolet', 77420.02);
-insert into car (id, make, model, price) values (148, 'Mazda', 'Mazda6', 86086.09);
-insert into car (id, make, model, price) values (149, 'Buick', 'Skyhawk', 77644.82);
-insert into car (id, make, model, price) values (150, 'Citroën', 'CX', 38726.60);
-insert into car (id, make, model, price) values (151, 'Chevrolet', 'G-Series G10', 85042.60);
-insert into car (id, make, model, price) values (152, 'Dodge', 'Ram 2500', 72691.61);
-insert into car (id, make, model, price) values (153, 'Mercedes-Benz', 'G-Class', 29062.04);
-insert into car (id, make, model, price) values (154, 'Suzuki', 'Swift', 88199.59);
-insert into car (id, make, model, price) values (155, 'BMW', 'X5', 86915.76);
-insert into car (id, make, model, price) values (156, 'Maserati', '228', 75029.04);
-insert into car (id, make, model, price) values (157, 'Land Rover', 'Discovery', 71834.80);
-insert into car (id, make, model, price) values (158, 'Chevrolet', '1500', 27882.81);
-insert into car (id, make, model, price) values (159, 'Dodge', 'Caravan', 64571.23);
-insert into car (id, make, model, price) values (160, 'Kia', 'Carens', 32699.10);
-insert into car (id, make, model, price) values (161, 'Pontiac', 'Montana', 83025.61);
-insert into car (id, make, model, price) values (162, 'Volkswagen', 'Rabbit', 57307.17);
-insert into car (id, make, model, price) values (163, 'Ford', 'F250', 81751.67);
-insert into car (id, make, model, price) values (164, 'Lotus', 'Esprit', 88626.27);
-insert into car (id, make, model, price) values (165, 'Cadillac', 'SRX', 31655.76);
-insert into car (id, make, model, price) values (166, 'Jaguar', 'X-Type', 33774.90);
-insert into car (id, make, model, price) values (167, 'Ford', 'Expedition', 74456.64);
-insert into car (id, make, model, price) values (168, 'Acura', 'TL', 17250.68);
-insert into car (id, make, model, price) values (169, 'Mercury', 'Mariner', 85816.73);
-insert into car (id, make, model, price) values (170, 'GMC', '2500', 76859.53);
-insert into car (id, make, model, price) values (171, 'Lexus', 'ES', 37770.65);
-insert into car (id, make, model, price) values (172, 'Jeep', 'Commander', 64580.55);
-insert into car (id, make, model, price) values (173, 'Hyundai', 'Tiburon', 41631.09);
-insert into car (id, make, model, price) values (174, 'Toyota', 'Yaris', 62945.70);
-insert into car (id, make, model, price) values (175, 'Lamborghini', 'Gallardo', 85586.80);
-insert into car (id, make, model, price) values (176, 'Oldsmobile', '88', 14180.00);
-insert into car (id, make, model, price) values (177, 'Chevrolet', 'Monte Carlo', 28445.47);
-insert into car (id, make, model, price) values (178, 'Lincoln', 'Navigator', 31406.20);
-insert into car (id, make, model, price) values (179, 'Peugeot', '207', 94009.45);
-insert into car (id, make, model, price) values (180, 'BMW', '8 Series', 21324.58);
-insert into car (id, make, model, price) values (181, 'Dodge', 'Grand Caravan', 47519.40);
-insert into car (id, make, model, price) values (182, 'Ford', 'Crown Victoria', 48117.63);
-insert into car (id, make, model, price) values (183, 'Ford', 'Aerostar', 86726.05);
-insert into car (id, make, model, price) values (184, 'Volkswagen', 'Jetta', 14627.37);
-insert into car (id, make, model, price) values (185, 'Mitsubishi', 'Eclipse', 34860.93);
-insert into car (id, make, model, price) values (186, 'Dodge', 'Durango', 80522.98);
-insert into car (id, make, model, price) values (187, 'Panoz', 'Esperante', 23125.20);
-insert into car (id, make, model, price) values (188, 'Suzuki', 'SX4', 98091.84);
-insert into car (id, make, model, price) values (189, 'Ford', 'Taurus', 74504.85);
-insert into car (id, make, model, price) values (190, 'Lincoln', 'Navigator L', 96736.95);
-insert into car (id, make, model, price) values (191, 'Jaguar', 'S-Type', 76924.71);
-insert into car (id, make, model, price) values (192, 'Volkswagen', 'Rabbit', 26660.34);
-insert into car (id, make, model, price) values (193, 'Toyota', 'Highlander', 87388.22);
-insert into car (id, make, model, price) values (194, 'Subaru', 'Forester', 92159.25);
-insert into car (id, make, model, price) values (195, 'Plymouth', 'Laser', 78219.12);
-insert into car (id, make, model, price) values (196, 'Volkswagen', 'Fox', 55591.82);
-insert into car (id, make, model, price) values (197, 'Ford', 'F-Series', 99416.89);
-insert into car (id, make, model, price) values (198, 'Land Rover', 'Range Rover Sport', 21501.58);
-insert into car (id, make, model, price) values (199, 'Lincoln', 'Navigator L', 33809.25);
-insert into car (id, make, model, price) values (200, 'Kia', 'Sedona', 71799.04);
-insert into car (id, make, model, price) values (201, 'Toyota', 'Corolla', 88824.39);
-insert into car (id, make, model, price) values (202, 'Lincoln', 'Navigator', 24632.92);
-insert into car (id, make, model, price) values (203, 'Mitsubishi', 'Galant', 14806.77);
-insert into car (id, make, model, price) values (204, 'Dodge', 'Ram Van 1500', 92552.26);
-insert into car (id, make, model, price) values (205, 'GMC', 'Safari', 80025.25);
-insert into car (id, make, model, price) values (206, 'Infiniti', 'I', 40977.83);
-insert into car (id, make, model, price) values (207, 'Volkswagen', 'Jetta', 94285.76);
-insert into car (id, make, model, price) values (208, 'Chevrolet', 'S10', 15505.99);
-insert into car (id, make, model, price) values (209, 'Lexus', 'LS', 93163.17);
-insert into car (id, make, model, price) values (210, 'Toyota', 'Sequoia', 22160.22);
-insert into car (id, make, model, price) values (211, 'Ford', 'Mustang', 39957.96);
-insert into car (id, make, model, price) values (212, 'Saab', '9-3', 40860.70);
-insert into car (id, make, model, price) values (213, 'Mercedes-Benz', 'SL-Class', 17612.28);
-insert into car (id, make, model, price) values (214, 'Chevrolet', 'Express 2500', 43756.93);
-insert into car (id, make, model, price) values (215, 'Ford', 'F-Series', 47221.14);
-insert into car (id, make, model, price) values (216, 'Ford', 'E250', 72033.86);
-insert into car (id, make, model, price) values (217, 'Spyker', 'C8 Spyder', 71142.44);
-insert into car (id, make, model, price) values (218, 'Jeep', 'Grand Cherokee', 34620.25);
-insert into car (id, make, model, price) values (219, 'Chrysler', 'PT Cruiser', 63585.99);
-insert into car (id, make, model, price) values (220, 'Mercury', 'Cougar', 95905.63);
-insert into car (id, make, model, price) values (221, 'Mercury', 'Grand Marquis', 87182.50);
-insert into car (id, make, model, price) values (222, 'Nissan', 'Frontier', 18578.32);
-insert into car (id, make, model, price) values (223, 'Mercedes-Benz', 'CLS-Class', 14586.17);
-insert into car (id, make, model, price) values (224, 'Saab', '9000', 94444.12);
-insert into car (id, make, model, price) values (225, 'BMW', '3 Series', 68865.08);
-insert into car (id, make, model, price) values (226, 'Hyundai', 'Elantra', 16065.72);
-insert into car (id, make, model, price) values (227, 'Volkswagen', 'Passat', 61400.93);
-insert into car (id, make, model, price) values (228, 'Hyundai', 'Elantra', 52172.59);
-insert into car (id, make, model, price) values (229, 'Volvo', 'C70', 60269.63);
-insert into car (id, make, model, price) values (230, 'Mercury', 'Marquis', 32513.10);
-insert into car (id, make, model, price) values (231, 'Nissan', 'NX', 25513.41);
-insert into car (id, make, model, price) values (232, 'Acura', 'Legend', 49615.10);
-insert into car (id, make, model, price) values (233, 'Porsche', 'Panamera', 27583.01);
-insert into car (id, make, model, price) values (234, 'Toyota', 'Camry Hybrid', 22016.12);
-insert into car (id, make, model, price) values (235, 'BMW', '645', 28692.82);
-insert into car (id, make, model, price) values (236, 'Dodge', 'Sprinter', 50687.70);
-insert into car (id, make, model, price) values (237, 'Mercedes-Benz', 'R-Class', 15971.10);
-insert into car (id, make, model, price) values (238, 'Hummer', 'H2 SUT', 13941.49);
-insert into car (id, make, model, price) values (239, 'Hyundai', 'Sonata', 19310.83);
-insert into car (id, make, model, price) values (240, 'Lincoln', 'Mark LT', 14763.04);
-insert into car (id, make, model, price) values (241, 'Subaru', 'Baja', 99195.27);
-insert into car (id, make, model, price) values (242, 'Cadillac', 'SRX', 59133.08);
-insert into car (id, make, model, price) values (243, 'Ford', 'Thunderbird', 81016.83);
-insert into car (id, make, model, price) values (244, 'Saturn', 'S-Series', 29936.58);
-insert into car (id, make, model, price) values (245, 'Volvo', '940', 58127.55);
-insert into car (id, make, model, price) values (246, 'Ford', 'Mustang', 12506.70);
-insert into car (id, make, model, price) values (247, 'BMW', '5 Series', 72114.86);
-insert into car (id, make, model, price) values (248, 'Mitsubishi', 'Mighty Max', 69466.34);
-insert into car (id, make, model, price) values (249, 'Volkswagen', 'Golf', 73161.00);
-insert into car (id, make, model, price) values (250, 'GMC', 'Yukon', 56124.95);
-insert into car (id, make, model, price) values (251, 'Audi', 'A4', 43871.68);
-insert into car (id, make, model, price) values (252, 'Mercedes-Benz', '400SEL', 43332.46);
-insert into car (id, make, model, price) values (253, 'Lincoln', 'Continental', 61066.75);
-insert into car (id, make, model, price) values (254, 'Pontiac', '1000', 71760.56);
-insert into car (id, make, model, price) values (255, 'Buick', 'Rainier', 27841.43);
-insert into car (id, make, model, price) values (256, 'Chevrolet', 'Malibu', 39889.64);
-insert into car (id, make, model, price) values (257, 'Honda', 'Accord', 68798.12);
-insert into car (id, make, model, price) values (258, 'Ford', 'Mustang', 57846.34);
-insert into car (id, make, model, price) values (259, 'Kia', 'Sephia', 42105.56);
-insert into car (id, make, model, price) values (260, 'Chevrolet', 'Traverse', 97976.64);
-insert into car (id, make, model, price) values (261, 'Plymouth', 'Laser', 14945.03);
-insert into car (id, make, model, price) values (262, 'Volvo', 'V40', 86026.31);
-insert into car (id, make, model, price) values (263, 'Subaru', 'Outback', 66561.88);
-insert into car (id, make, model, price) values (264, 'Nissan', 'Altima', 89731.92);
-insert into car (id, make, model, price) values (265, 'Cadillac', 'CTS', 71758.46);
-insert into car (id, make, model, price) values (266, 'Land Rover', 'Range Rover', 63610.00);
-insert into car (id, make, model, price) values (267, 'Volvo', 'S40', 77150.27);
-insert into car (id, make, model, price) values (268, 'Suzuki', 'Aerio', 72399.21);
-insert into car (id, make, model, price) values (269, 'Mercedes-Benz', '500SEC', 11516.39);
-insert into car (id, make, model, price) values (270, 'Toyota', 'Matrix', 68147.11);
-insert into car (id, make, model, price) values (271, 'Volvo', 'S40', 56692.10);
-insert into car (id, make, model, price) values (272, 'Toyota', 'Celica', 22984.08);
-insert into car (id, make, model, price) values (273, 'Volkswagen', 'Passat', 36834.68);
-insert into car (id, make, model, price) values (274, 'Mitsubishi', 'Endeavor', 71147.89);
-insert into car (id, make, model, price) values (275, 'Audi', 'TT', 66735.17);
-insert into car (id, make, model, price) values (276, 'Chrysler', 'Imperial', 10358.95);
-insert into car (id, make, model, price) values (277, 'Chevrolet', 'Camaro', 15501.23);
-insert into car (id, make, model, price) values (278, 'Ford', 'Econoline E250', 97716.68);
-insert into car (id, make, model, price) values (279, 'MINI', 'Clubman', 81603.19);
-insert into car (id, make, model, price) values (280, 'Suzuki', 'Grand Vitara', 53692.58);
-insert into car (id, make, model, price) values (281, 'GMC', 'Suburban 1500', 75868.31);
-insert into car (id, make, model, price) values (282, 'Mitsubishi', 'Diamante', 34905.28);
-insert into car (id, make, model, price) values (283, 'Volkswagen', 'Fox', 86805.92);
-insert into car (id, make, model, price) values (284, 'GMC', 'Yukon', 17619.57);
-insert into car (id, make, model, price) values (285, 'Dodge', 'Stealth', 89324.00);
-insert into car (id, make, model, price) values (286, 'Lotus', 'Elan', 27588.17);
-insert into car (id, make, model, price) values (287, 'Nissan', 'Cube', 12870.75);
-insert into car (id, make, model, price) values (288, 'Volkswagen', 'Touareg', 70536.26);
-insert into car (id, make, model, price) values (289, 'Kia', 'Spectra', 36934.94);
-insert into car (id, make, model, price) values (290, 'Honda', 'Passport', 65723.87);
-insert into car (id, make, model, price) values (291, 'Ford', 'Escort', 75832.81);
-insert into car (id, make, model, price) values (292, 'Acura', 'NSX', 77782.54);
-insert into car (id, make, model, price) values (293, 'Lexus', 'RX Hybrid', 21603.63);
-insert into car (id, make, model, price) values (294, 'Dodge', 'Ram Van 2500', 61533.84);
-insert into car (id, make, model, price) values (295, 'Nissan', 'Quest', 13730.41);
-insert into car (id, make, model, price) values (296, 'Volkswagen', 'GTI', 58204.82);
-insert into car (id, make, model, price) values (297, 'Hyundai', 'Veracruz', 66649.53);
-insert into car (id, make, model, price) values (298, 'Jaguar', 'XJ', 67299.97);
-insert into car (id, make, model, price) values (299, 'Mercury', 'Tracer', 62589.90);
-insert into car (id, make, model, price) values (300, 'GMC', 'Canyon', 16644.79);
-insert into car (id, make, model, price) values (301, 'Porsche', '911', 76365.76);
-insert into car (id, make, model, price) values (302, 'MINI', 'MINI', 23063.54);
-insert into car (id, make, model, price) values (303, 'Mazda', 'MX-5', 82378.74);
-insert into car (id, make, model, price) values (304, 'MINI', 'Clubman', 18046.70);
-insert into car (id, make, model, price) values (305, 'Ford', 'E-Series', 35559.57);
-insert into car (id, make, model, price) values (306, 'Ferrari', '430 Scuderia', 82527.86);
-insert into car (id, make, model, price) values (307, 'Chrysler', 'Aspen', 53131.23);
-insert into car (id, make, model, price) values (308, 'Chevrolet', 'Lumina', 20594.86);
-insert into car (id, make, model, price) values (309, 'Ford', 'Thunderbird', 44163.84);
-insert into car (id, make, model, price) values (310, 'Honda', 'Pilot', 63396.73);
-insert into car (id, make, model, price) values (311, 'BMW', '7 Series', 98092.56);
-insert into car (id, make, model, price) values (312, 'Honda', 'S2000', 68892.10);
-insert into car (id, make, model, price) values (313, 'Dodge', 'Caravan', 54601.08);
-insert into car (id, make, model, price) values (314, 'Infiniti', 'M', 13371.89);
-insert into car (id, make, model, price) values (315, 'Jeep', 'Cherokee', 55921.91);
-insert into car (id, make, model, price) values (316, 'Chevrolet', 'Express 3500', 42276.86);
-insert into car (id, make, model, price) values (317, 'Suzuki', 'XL-7', 53715.88);
-insert into car (id, make, model, price) values (318, 'Porsche', '928', 38611.53);
-insert into car (id, make, model, price) values (319, 'Jaguar', 'X-Type', 54743.83);
-insert into car (id, make, model, price) values (320, 'Ford', 'Ranger', 22902.32);
-insert into car (id, make, model, price) values (321, 'Nissan', 'Quest', 47426.67);
-insert into car (id, make, model, price) values (322, 'Hyundai', 'Elantra', 17390.45);
-insert into car (id, make, model, price) values (323, 'Buick', 'LaCrosse', 58048.13);
-insert into car (id, make, model, price) values (324, 'GMC', 'Savana 1500', 65407.24);
-insert into car (id, make, model, price) values (325, 'Mercury', 'Cougar', 58583.83);
-insert into car (id, make, model, price) values (326, 'MINI', 'Cooper', 57441.95);
-insert into car (id, make, model, price) values (327, 'Lincoln', 'Town Car', 92971.60);
-insert into car (id, make, model, price) values (328, 'Isuzu', 'Stylus', 27875.38);
-insert into car (id, make, model, price) values (329, 'Mazda', 'RX-7', 23826.10);
-insert into car (id, make, model, price) values (330, 'Chevrolet', 'Colorado', 67413.04);
-insert into car (id, make, model, price) values (331, 'Hyundai', 'XG350', 41544.83);
-insert into car (id, make, model, price) values (332, 'Infiniti', 'G', 24802.34);
-insert into car (id, make, model, price) values (333, 'Jaguar', 'XJ Series', 25761.03);
-insert into car (id, make, model, price) values (334, 'Kia', 'Sorento', 59075.82);
-insert into car (id, make, model, price) values (335, 'Toyota', 'Celica', 23203.57);
-insert into car (id, make, model, price) values (336, 'Maserati', 'Karif', 47261.85);
-insert into car (id, make, model, price) values (337, 'Chevrolet', 'Sportvan G10', 33280.16);
-insert into car (id, make, model, price) values (338, 'Mitsubishi', 'L300', 18278.27);
-insert into car (id, make, model, price) values (339, 'Cadillac', 'Escalade ESV', 43056.35);
-insert into car (id, make, model, price) values (340, 'Audi', 'S8', 69651.69);
-insert into car (id, make, model, price) values (341, 'Ford', 'Mustang', 53568.09);
-insert into car (id, make, model, price) values (342, 'Hyundai', 'XG350', 42601.25);
-insert into car (id, make, model, price) values (343, 'Mazda', 'Miata MX-5', 98708.06);
-insert into car (id, make, model, price) values (344, 'Volkswagen', 'Jetta', 83494.30);
-insert into car (id, make, model, price) values (345, 'Toyota', 'Avalon', 88101.41);
-insert into car (id, make, model, price) values (346, 'Lexus', 'LS', 52274.97);
-insert into car (id, make, model, price) values (347, 'Volkswagen', 'Passat', 58498.44);
-insert into car (id, make, model, price) values (348, 'Pontiac', 'Firebird Formula', 50676.80);
-insert into car (id, make, model, price) values (349, 'Ford', 'Expedition', 22515.36);
-insert into car (id, make, model, price) values (350, 'Mazda', 'MX-6', 52662.42);
-insert into car (id, make, model, price) values (351, 'Chevrolet', 'Malibu', 74733.47);
-insert into car (id, make, model, price) values (352, 'Jeep', 'Grand Cherokee', 45227.77);
-insert into car (id, make, model, price) values (353, 'Suzuki', 'Sidekick', 43935.30);
-insert into car (id, make, model, price) values (354, 'Jeep', 'Wrangler', 42266.92);
-insert into car (id, make, model, price) values (355, 'Lexus', 'HS', 81934.86);
-insert into car (id, make, model, price) values (356, 'Volvo', '940', 52279.07);
-insert into car (id, make, model, price) values (357, 'Ford', 'Thunderbird', 21550.35);
-insert into car (id, make, model, price) values (358, 'Mazda', 'CX-7', 74631.72);
-insert into car (id, make, model, price) values (359, 'Cadillac', 'CTS-V', 78686.78);
-insert into car (id, make, model, price) values (360, 'Dodge', 'Grand Caravan', 22534.10);
-insert into car (id, make, model, price) values (361, 'Honda', 'Ridgeline', 83009.77);
-insert into car (id, make, model, price) values (362, 'Audi', 'Q7', 29139.82);
-insert into car (id, make, model, price) values (363, 'Buick', 'Coachbuilder', 69747.27);
-insert into car (id, make, model, price) values (364, 'BMW', 'X3', 72594.94);
-insert into car (id, make, model, price) values (365, 'Mitsubishi', 'Endeavor', 95171.90);
-insert into car (id, make, model, price) values (366, 'Volkswagen', 'New Beetle', 83757.99);
-insert into car (id, make, model, price) values (367, 'Dodge', 'Ram 3500', 97675.15);
-insert into car (id, make, model, price) values (368, 'Chevrolet', 'Cavalier', 56422.41);
-insert into car (id, make, model, price) values (369, 'Ford', 'Aerostar', 49860.72);
-insert into car (id, make, model, price) values (370, 'Chevrolet', 'Silverado 2500', 46089.67);
-insert into car (id, make, model, price) values (371, 'Honda', 'Civic', 74951.14);
-insert into car (id, make, model, price) values (372, 'Ford', 'Flex', 57999.73);
-insert into car (id, make, model, price) values (373, 'Subaru', 'Outback', 70419.47);
-insert into car (id, make, model, price) values (374, 'Mazda', 'MX-3', 61746.87);
-insert into car (id, make, model, price) values (375, 'Chevrolet', 'Express 1500', 48895.37);
-insert into car (id, make, model, price) values (376, 'Toyota', 'FJ Cruiser', 73074.54);
-insert into car (id, make, model, price) values (377, 'Chevrolet', 'Silverado', 73462.66);
-insert into car (id, make, model, price) values (378, 'Infiniti', 'FX', 58942.58);
-insert into car (id, make, model, price) values (379, 'Plymouth', 'Grand Voyager', 68160.29);
-insert into car (id, make, model, price) values (380, 'Ford', 'Crown Victoria', 54998.17);
-insert into car (id, make, model, price) values (381, 'Pontiac', 'Sunbird', 73933.58);
-insert into car (id, make, model, price) values (382, 'Nissan', 'Sentra', 67235.63);
-insert into car (id, make, model, price) values (383, 'Audi', 'A3', 65151.15);
-insert into car (id, make, model, price) values (384, 'Chrysler', 'Sebring', 90293.03);
-insert into car (id, make, model, price) values (385, 'Subaru', 'Legacy', 62163.59);
-insert into car (id, make, model, price) values (386, 'Mercedes-Benz', '500SEL', 34106.43);
-insert into car (id, make, model, price) values (387, 'Chrysler', 'Town & Country', 60482.70);
-insert into car (id, make, model, price) values (388, 'Plymouth', 'Grand Voyager', 50484.47);
-insert into car (id, make, model, price) values (389, 'Cadillac', 'Escalade', 60193.66);
-insert into car (id, make, model, price) values (390, 'Hyundai', 'Azera', 91997.08);
-insert into car (id, make, model, price) values (391, 'BMW', 'X5 M', 55758.75);
-insert into car (id, make, model, price) values (392, 'Mitsubishi', 'Mirage', 48798.69);
-insert into car (id, make, model, price) values (393, 'Chevrolet', 'Lumina', 19444.14);
-insert into car (id, make, model, price) values (394, 'Suzuki', 'Swift', 15126.13);
-insert into car (id, make, model, price) values (395, 'Hyundai', 'Sonata', 72609.66);
-insert into car (id, make, model, price) values (396, 'Ford', 'E-350 Super Duty Van', 79776.42);
-insert into car (id, make, model, price) values (397, 'Isuzu', 'Oasis', 28571.60);
-insert into car (id, make, model, price) values (398, 'Lincoln', 'Town Car', 29601.77);
-insert into car (id, make, model, price) values (399, 'Chevrolet', 'Suburban 1500', 75375.19);
-insert into car (id, make, model, price) values (400, 'Plymouth', 'Neon', 58974.50);
-insert into car (id, make, model, price) values (401, 'MINI', 'Cooper Clubman', 52025.53);
-insert into car (id, make, model, price) values (402, 'Honda', 'Civic', 19717.94);
-insert into car (id, make, model, price) values (403, 'Infiniti', 'QX', 47191.64);
-insert into car (id, make, model, price) values (404, 'Dodge', 'Ram 1500', 21178.03);
-insert into car (id, make, model, price) values (405, 'Volvo', 'XC70', 91361.86);
-insert into car (id, make, model, price) values (406, 'Toyota', 'Celica', 24145.24);
-insert into car (id, make, model, price) values (407, 'GMC', 'Yukon', 68713.49);
-insert into car (id, make, model, price) values (408, 'Jeep', 'Cherokee', 71517.22);
-insert into car (id, make, model, price) values (409, 'Ford', 'Crown Victoria', 15940.43);
-insert into car (id, make, model, price) values (410, 'Lexus', 'IS', 50295.07);
-insert into car (id, make, model, price) values (411, 'Lexus', 'ES', 15947.97);
-insert into car (id, make, model, price) values (412, 'BMW', '7 Series', 52320.46);
-insert into car (id, make, model, price) values (413, 'Toyota', 'Supra', 64161.18);
-insert into car (id, make, model, price) values (414, 'Volkswagen', 'Beetle', 95898.99);
-insert into car (id, make, model, price) values (415, 'Chevrolet', 'Express 2500', 16859.47);
-insert into car (id, make, model, price) values (416, 'Chevrolet', 'Tahoe', 29205.34);
-insert into car (id, make, model, price) values (417, 'Chevrolet', 'Express 1500', 41802.29);
-insert into car (id, make, model, price) values (418, 'Dodge', 'Sprinter', 18996.41);
-insert into car (id, make, model, price) values (419, 'Mazda', 'B-Series', 77788.38);
-insert into car (id, make, model, price) values (420, 'Dodge', 'Dakota Club', 73419.91);
-insert into car (id, make, model, price) values (421, 'Buick', 'LeSabre', 16053.46);
-insert into car (id, make, model, price) values (422, 'Bentley', 'Brooklands', 29341.92);
-insert into car (id, make, model, price) values (423, 'Volkswagen', 'Type 2', 17851.51);
-insert into car (id, make, model, price) values (424, 'Acura', 'MDX', 71510.41);
-insert into car (id, make, model, price) values (425, 'Ford', 'Focus ST', 24662.09);
-insert into car (id, make, model, price) values (426, 'Mercury', 'Monterey', 84156.16);
-insert into car (id, make, model, price) values (427, 'Chevrolet', 'Corvette', 38010.60);
-insert into car (id, make, model, price) values (428, 'Dodge', 'Ram Van B150', 83832.52);
-insert into car (id, make, model, price) values (429, 'Mazda', 'RX-8', 47042.81);
-insert into car (id, make, model, price) values (430, 'Buick', 'Verano', 36062.62);
-insert into car (id, make, model, price) values (431, 'Mazda', 'RX-8', 13536.93);
-insert into car (id, make, model, price) values (432, 'Mitsubishi', 'Pajero', 82772.34);
-insert into car (id, make, model, price) values (433, 'Dodge', 'Intrepid', 79222.69);
-insert into car (id, make, model, price) values (434, 'Toyota', 'T100 Xtra', 78383.49);
-insert into car (id, make, model, price) values (435, 'Chevrolet', 'G-Series G10', 61397.39);
-insert into car (id, make, model, price) values (436, 'Mazda', 'Navajo', 86120.61);
-insert into car (id, make, model, price) values (437, 'Volvo', 'C30', 50734.65);
-insert into car (id, make, model, price) values (438, 'Pontiac', 'Montana', 40687.40);
-insert into car (id, make, model, price) values (439, 'Porsche', 'Carrera GT', 51316.28);
-insert into car (id, make, model, price) values (440, 'Honda', 'Prelude', 83003.83);
-insert into car (id, make, model, price) values (441, 'GMC', 'Sierra 2500', 45209.20);
-insert into car (id, make, model, price) values (442, 'Mitsubishi', 'Endeavor', 13392.08);
-insert into car (id, make, model, price) values (443, 'Audi', 'TT', 80575.04);
-insert into car (id, make, model, price) values (444, 'Mercedes-Benz', '600SEL', 62627.16);
-insert into car (id, make, model, price) values (445, 'Jeep', 'Grand Cherokee', 24774.38);
-insert into car (id, make, model, price) values (446, 'Mercedes-Benz', 'E-Class', 16972.47);
-insert into car (id, make, model, price) values (447, 'Chevrolet', 'Express 3500', 73556.04);
-insert into car (id, make, model, price) values (448, 'Mitsubishi', 'Galant', 86765.86);
-insert into car (id, make, model, price) values (449, 'Mitsubishi', 'Lancer', 95879.75);
-insert into car (id, make, model, price) values (450, 'Mazda', 'B-Series', 36251.40);
-insert into car (id, make, model, price) values (451, 'Porsche', 'Boxster', 28678.26);
-insert into car (id, make, model, price) values (452, 'Subaru', 'Justy', 89505.66);
-insert into car (id, make, model, price) values (453, 'Infiniti', 'G', 88039.28);
-insert into car (id, make, model, price) values (454, 'Mitsubishi', 'Galant', 27694.95);
-insert into car (id, make, model, price) values (455, 'Ford', 'Aerostar', 91446.57);
-insert into car (id, make, model, price) values (456, 'Maserati', 'Gran Sport', 12970.35);
-insert into car (id, make, model, price) values (457, 'Dodge', 'Omni', 82470.95);
-insert into car (id, make, model, price) values (458, 'Mercedes-Benz', 'C-Class', 97540.17);
-insert into car (id, make, model, price) values (459, 'Mazda', 'MPV', 94687.11);
-insert into car (id, make, model, price) values (460, 'Chevrolet', 'Silverado 2500', 82553.22);
-insert into car (id, make, model, price) values (461, 'Nissan', 'Quest', 38922.30);
-insert into car (id, make, model, price) values (462, 'Lincoln', 'Navigator', 16817.08);
-insert into car (id, make, model, price) values (463, 'Pontiac', 'Bonneville', 33873.17);
-insert into car (id, make, model, price) values (464, 'Ford', 'Escort', 43905.20);
-insert into car (id, make, model, price) values (465, 'BMW', 'X5', 77592.98);
-insert into car (id, make, model, price) values (466, 'Renault', 'Alliance', 89182.63);
-insert into car (id, make, model, price) values (467, 'Aston Martin', 'DB9', 10769.47);
-insert into car (id, make, model, price) values (468, 'Buick', 'Century', 92171.62);
-insert into car (id, make, model, price) values (469, 'Pontiac', 'G3', 48129.97);
-insert into car (id, make, model, price) values (470, 'Mitsubishi', 'Galant', 84853.34);
-insert into car (id, make, model, price) values (471, 'Dodge', 'Stratus', 68574.73);
-insert into car (id, make, model, price) values (472, 'Jaguar', 'XJ Series', 12670.90);
-insert into car (id, make, model, price) values (473, 'Ford', 'Explorer Sport Trac', 73059.51);
-insert into car (id, make, model, price) values (474, 'Ford', 'F-Series', 90152.90);
-insert into car (id, make, model, price) values (475, 'Infiniti', 'G', 62702.08);
-insert into car (id, make, model, price) values (476, 'Toyota', 'Avalon', 48193.24);
-insert into car (id, make, model, price) values (477, 'Dodge', 'Nitro', 54220.13);
-insert into car (id, make, model, price) values (478, 'Hyundai', 'Elantra', 80744.42);
-insert into car (id, make, model, price) values (479, 'Pontiac', 'Firebird', 30113.74);
-insert into car (id, make, model, price) values (480, 'Volkswagen', 'Golf', 12518.95);
-insert into car (id, make, model, price) values (481, 'Mitsubishi', 'Galant', 49575.26);
-insert into car (id, make, model, price) values (482, 'Audi', 'S6', 57880.59);
-insert into car (id, make, model, price) values (483, 'Honda', 'Insight', 89880.61);
-insert into car (id, make, model, price) values (484, 'Honda', 'Civic', 15715.22);
-insert into car (id, make, model, price) values (485, 'Volvo', 'C70', 48897.18);
-insert into car (id, make, model, price) values (486, 'Cadillac', 'Escalade', 20631.79);
-insert into car (id, make, model, price) values (487, 'Pontiac', 'Bonneville', 63260.02);
-insert into car (id, make, model, price) values (488, 'Mitsubishi', 'Expo', 81787.71);
-insert into car (id, make, model, price) values (489, 'Volkswagen', 'Type 2', 65312.92);
-insert into car (id, make, model, price) values (490, 'Buick', 'LaCrosse', 50343.43);
-insert into car (id, make, model, price) values (491, 'Volkswagen', 'New Beetle', 74306.99);
-insert into car (id, make, model, price) values (492, 'Nissan', 'Maxima', 29431.92);
-insert into car (id, make, model, price) values (493, 'Chevrolet', 'Lumina', 26905.01);
-insert into car (id, make, model, price) values (494, 'Ford', 'Escort', 49745.66);
-insert into car (id, make, model, price) values (495, 'Toyota', 'Sienna', 14459.87);
-insert into car (id, make, model, price) values (496, 'Maserati', '430', 52541.54);
-insert into car (id, make, model, price) values (497, 'Plymouth', 'Sundance', 11316.73);
-insert into car (id, make, model, price) values (498, 'Toyota', 'Matrix', 18245.12);
-insert into car (id, make, model, price) values (499, 'Pontiac', 'Sunfire', 51276.98);
-insert into car (id, make, model, price) values (500, 'Dodge', 'D350 Club', 58200.55);
-insert into car (id, make, model, price) values (501, 'Nissan', '370Z', 31536.14);
-insert into car (id, make, model, price) values (502, 'Ford', 'Explorer Sport', 28969.82);
-insert into car (id, make, model, price) values (503, 'GMC', '3500', 11464.64);
-insert into car (id, make, model, price) values (504, 'Ford', 'Taurus', 68653.18);
-insert into car (id, make, model, price) values (505, 'Nissan', 'Frontier', 21858.60);
-insert into car (id, make, model, price) values (506, 'Mazda', 'CX-7', 20523.09);
-insert into car (id, make, model, price) values (507, 'Mazda', 'MX-5', 38987.42);
-insert into car (id, make, model, price) values (508, 'Ford', 'Festiva', 65123.98);
-insert into car (id, make, model, price) values (509, 'Nissan', '300ZX', 77300.70);
-insert into car (id, make, model, price) values (510, 'Chevrolet', '2500', 37267.81);
-insert into car (id, make, model, price) values (511, 'Suzuki', 'Swift', 54757.27);
-insert into car (id, make, model, price) values (512, 'Pontiac', 'Firebird', 79262.21);
-insert into car (id, make, model, price) values (513, 'Jeep', 'Cherokee', 81080.10);
-insert into car (id, make, model, price) values (514, 'Lincoln', 'Zephyr', 36184.51);
-insert into car (id, make, model, price) values (515, 'Chevrolet', 'Lumina', 19620.32);
-insert into car (id, make, model, price) values (516, 'Acura', 'RSX', 55022.11);
-insert into car (id, make, model, price) values (517, 'Lincoln', 'Continental', 64975.53);
-insert into car (id, make, model, price) values (518, 'Dodge', 'Dakota', 96055.38);
-insert into car (id, make, model, price) values (519, 'Cadillac', 'Eldorado', 76185.20);
-insert into car (id, make, model, price) values (520, 'Acura', 'Integra', 16525.65);
-insert into car (id, make, model, price) values (521, 'Aston Martin', 'V8 Vantage', 30233.57);
-insert into car (id, make, model, price) values (522, 'Jeep', 'Comanche', 17868.02);
-insert into car (id, make, model, price) values (523, 'Lincoln', 'Town Car', 67367.70);
-insert into car (id, make, model, price) values (524, 'Ford', 'F350', 30649.28);
-insert into car (id, make, model, price) values (525, 'BMW', 'X5 M', 29655.31);
-insert into car (id, make, model, price) values (526, 'Cadillac', 'STS-V', 38471.99);
-insert into car (id, make, model, price) values (527, 'Suzuki', 'Esteem', 14204.77);
-insert into car (id, make, model, price) values (528, 'GMC', 'Sierra 3500', 67974.55);
-insert into car (id, make, model, price) values (529, 'Honda', 'Civic', 88874.38);
-insert into car (id, make, model, price) values (530, 'Volvo', 'V50', 35992.39);
-insert into car (id, make, model, price) values (531, 'Volvo', 'V70', 84854.09);
-insert into car (id, make, model, price) values (532, 'Mitsubishi', 'Lancer', 90342.67);
-insert into car (id, make, model, price) values (533, 'Acura', 'TL', 52196.72);
-insert into car (id, make, model, price) values (534, 'Plymouth', 'Colt', 75488.17);
-insert into car (id, make, model, price) values (535, 'Audi', '5000CS', 30782.59);
-insert into car (id, make, model, price) values (536, 'Ford', 'Mustang', 10637.04);
-insert into car (id, make, model, price) values (537, 'Suzuki', 'Swift', 80117.12);
-insert into car (id, make, model, price) values (538, 'Audi', 'A7', 13354.79);
-insert into car (id, make, model, price) values (539, 'Lotus', 'Evora', 73234.08);
-insert into car (id, make, model, price) values (540, 'Dodge', 'Ram Van 1500', 73961.14);
-insert into car (id, make, model, price) values (541, 'Ford', 'Expedition', 43670.35);
-insert into car (id, make, model, price) values (542, 'Saab', '9-5', 26556.21);
-insert into car (id, make, model, price) values (543, 'Mercedes-Benz', '600SEL', 76927.53);
-insert into car (id, make, model, price) values (544, 'GMC', '2500 Club Coupe', 72197.27);
-insert into car (id, make, model, price) values (545, 'BMW', 'Z4 M', 80824.88);
-insert into car (id, make, model, price) values (546, 'Lexus', 'LX', 84033.75);
-insert into car (id, make, model, price) values (547, 'Buick', 'LaCrosse', 88493.18);
-insert into car (id, make, model, price) values (548, 'Mitsubishi', 'Diamante', 81903.57);
-insert into car (id, make, model, price) values (549, 'Infiniti', 'G', 10098.09);
-insert into car (id, make, model, price) values (550, 'Infiniti', 'M', 83229.16);
-insert into car (id, make, model, price) values (551, 'Nissan', 'Maxima', 67503.22);
-insert into car (id, make, model, price) values (552, 'Lincoln', 'Navigator', 26391.67);
-insert into car (id, make, model, price) values (553, 'Ford', 'Thunderbird', 44612.22);
-insert into car (id, make, model, price) values (554, 'Dodge', 'Nitro', 82942.13);
-insert into car (id, make, model, price) values (555, 'Chevrolet', 'Corvette', 70030.78);
-insert into car (id, make, model, price) values (556, 'Nissan', 'Rogue', 63130.22);
-insert into car (id, make, model, price) values (557, 'Chevrolet', 'Blazer', 13048.37);
-insert into car (id, make, model, price) values (558, 'Volkswagen', 'Passat', 71559.82);
-insert into car (id, make, model, price) values (559, 'Volkswagen', 'Passat', 65552.43);
-insert into car (id, make, model, price) values (560, 'Hummer', 'H1', 16578.04);
-insert into car (id, make, model, price) values (561, 'Toyota', 'T100', 58662.50);
-insert into car (id, make, model, price) values (562, 'Honda', 'Pilot', 84769.75);
-insert into car (id, make, model, price) values (563, 'Mercedes-Benz', 'S-Class', 32783.62);
-insert into car (id, make, model, price) values (564, 'Ford', 'Econoline E250', 85757.97);
-insert into car (id, make, model, price) values (565, 'Dodge', 'Ram 1500 Club', 67160.60);
-insert into car (id, make, model, price) values (566, 'GMC', '1500 Club Coupe', 46723.66);
-insert into car (id, make, model, price) values (567, 'Ford', 'F-Series', 84541.14);
-insert into car (id, make, model, price) values (568, 'Chevrolet', 'TrailBlazer', 15246.39);
-insert into car (id, make, model, price) values (569, 'Mercury', 'Topaz', 86003.06);
-insert into car (id, make, model, price) values (570, 'Dodge', 'Charger', 37008.48);
-insert into car (id, make, model, price) values (571, 'Honda', 'Accord', 23885.30);
-insert into car (id, make, model, price) values (572, 'Toyota', 'TundraMax', 65483.60);
-insert into car (id, make, model, price) values (573, 'Infiniti', 'QX', 11650.70);
-insert into car (id, make, model, price) values (574, 'Toyota', 'Camry', 88677.14);
-insert into car (id, make, model, price) values (575, 'Audi', 'A8', 53882.06);
-insert into car (id, make, model, price) values (576, 'Eagle', 'Vision', 16014.12);
-insert into car (id, make, model, price) values (577, 'Honda', 'Prelude', 32162.38);
-insert into car (id, make, model, price) values (578, 'Infiniti', 'G37', 30812.48);
-insert into car (id, make, model, price) values (579, 'Infiniti', 'I', 39871.92);
-insert into car (id, make, model, price) values (580, 'Volkswagen', 'New Beetle', 55095.45);
-insert into car (id, make, model, price) values (581, 'GMC', 'Sierra 2500', 26710.11);
-insert into car (id, make, model, price) values (582, 'Ford', 'Ranger', 55968.16);
-insert into car (id, make, model, price) values (583, 'Dodge', 'Dakota', 76868.28);
-insert into car (id, make, model, price) values (584, 'Chevrolet', '3500', 99791.92);
-insert into car (id, make, model, price) values (585, 'Honda', 'Prelude', 59881.08);
-insert into car (id, make, model, price) values (586, 'Mercedes-Benz', 'S-Class', 22597.53);
-insert into car (id, make, model, price) values (587, 'Chevrolet', 'Cavalier', 82601.01);
-insert into car (id, make, model, price) values (588, 'Saab', '9000', 83378.76);
-insert into car (id, make, model, price) values (589, 'Honda', 'CR-V', 14735.68);
-insert into car (id, make, model, price) values (590, 'Buick', 'Regal', 19601.42);
-insert into car (id, make, model, price) values (591, 'Acura', 'Integra', 80336.06);
-insert into car (id, make, model, price) values (592, 'Honda', 'Accord', 95124.41);
-insert into car (id, make, model, price) values (593, 'Mazda', 'MX-5', 37176.63);
-insert into car (id, make, model, price) values (594, 'Subaru', 'Legacy', 86369.41);
-insert into car (id, make, model, price) values (595, 'Audi', 'A3', 85159.26);
-insert into car (id, make, model, price) values (596, 'Chevrolet', 'Malibu', 14158.85);
-insert into car (id, make, model, price) values (597, 'Ford', 'Windstar', 43445.12);
-insert into car (id, make, model, price) values (598, 'Hyundai', 'Sonata', 33723.22);
-insert into car (id, make, model, price) values (599, 'Buick', 'Electra', 55217.90);
-insert into car (id, make, model, price) values (600, 'Pontiac', 'LeMans', 65846.45);
-insert into car (id, make, model, price) values (601, 'Dodge', 'Neon', 30229.68);
-insert into car (id, make, model, price) values (602, 'Toyota', 'Corolla', 73156.30);
-insert into car (id, make, model, price) values (603, 'Lexus', 'LFA', 97128.51);
-insert into car (id, make, model, price) values (604, 'Porsche', 'Cayenne', 67859.51);
-insert into car (id, make, model, price) values (605, 'GMC', 'Yukon XL 2500', 93328.92);
-insert into car (id, make, model, price) values (606, 'Mitsubishi', 'Chariot', 22406.75);
-insert into car (id, make, model, price) values (607, 'Infiniti', 'M', 40904.16);
-insert into car (id, make, model, price) values (608, 'Toyota', 'Celica', 16496.68);
-insert into car (id, make, model, price) values (609, 'Dodge', 'Ram 1500 Club', 39766.76);
-insert into car (id, make, model, price) values (610, 'Lotus', 'Esprit', 61542.20);
-insert into car (id, make, model, price) values (611, 'Acura', 'CL', 52370.70);
-insert into car (id, make, model, price) values (612, 'Volkswagen', 'Jetta', 34704.27);
-insert into car (id, make, model, price) values (613, 'Mitsubishi', 'Challenger', 80746.71);
-insert into car (id, make, model, price) values (614, 'GMC', 'Suburban 1500', 58117.00);
-insert into car (id, make, model, price) values (615, 'Nissan', 'Sentra', 39456.15);
-insert into car (id, make, model, price) values (616, 'Volvo', 'XC70', 65738.19);
-insert into car (id, make, model, price) values (617, 'Buick', 'Regal', 63506.18);
-insert into car (id, make, model, price) values (618, 'Mercedes-Benz', 'E-Class', 38811.55);
-insert into car (id, make, model, price) values (619, 'Honda', 'Odyssey', 66675.56);
-insert into car (id, make, model, price) values (620, 'Ferrari', 'F430', 11986.15);
-insert into car (id, make, model, price) values (621, 'Toyota', '4Runner', 94911.27);
-insert into car (id, make, model, price) values (622, 'Mercury', 'Milan', 96481.67);
-insert into car (id, make, model, price) values (623, 'Mazda', 'MX-3', 72431.18);
-insert into car (id, make, model, price) values (624, 'Chevrolet', 'Aveo', 12990.88);
-insert into car (id, make, model, price) values (625, 'Mazda', '626', 40355.27);
-insert into car (id, make, model, price) values (626, 'BMW', 'M5', 84974.05);
-insert into car (id, make, model, price) values (627, 'Mercedes-Benz', 'W123', 87515.66);
-insert into car (id, make, model, price) values (628, 'Chevrolet', 'HHR', 76802.44);
-insert into car (id, make, model, price) values (629, 'Suzuki', 'Swift', 57239.40);
-insert into car (id, make, model, price) values (630, 'Lincoln', 'MKS', 46488.45);
-insert into car (id, make, model, price) values (631, 'Buick', 'LeSabre', 46706.95);
-insert into car (id, make, model, price) values (632, 'Mazda', 'Miata MX-5', 41290.25);
-insert into car (id, make, model, price) values (633, 'GMC', 'Yukon', 96001.39);
-insert into car (id, make, model, price) values (634, 'Mitsubishi', 'Montero', 28059.93);
-insert into car (id, make, model, price) values (635, 'Porsche', 'Cayenne', 41607.55);
-insert into car (id, make, model, price) values (636, 'BMW', '760', 29429.17);
-insert into car (id, make, model, price) values (637, 'Chrysler', 'Crossfire', 21172.94);
-insert into car (id, make, model, price) values (638, 'Chevrolet', 'Avalanche 1500', 79805.18);
-insert into car (id, make, model, price) values (639, 'Chevrolet', '2500', 83785.82);
-insert into car (id, make, model, price) values (640, 'Jeep', 'Liberty', 26561.57);
-insert into car (id, make, model, price) values (641, 'Acura', 'RL', 50605.19);
-insert into car (id, make, model, price) values (642, 'Pontiac', 'Firefly', 82794.05);
-insert into car (id, make, model, price) values (643, 'Toyota', 'Prius', 64097.41);
-insert into car (id, make, model, price) values (644, 'Subaru', 'Justy', 21979.58);
-insert into car (id, make, model, price) values (645, 'Ferrari', '458 Italia', 49807.87);
-insert into car (id, make, model, price) values (646, 'Mercury', 'Grand Marquis', 67408.38);
-insert into car (id, make, model, price) values (647, 'Nissan', 'Maxima', 19460.58);
-insert into car (id, make, model, price) values (648, 'Chevrolet', 'Monte Carlo', 39392.11);
-insert into car (id, make, model, price) values (649, 'Audi', '80', 40164.44);
-insert into car (id, make, model, price) values (650, 'Ford', 'Ranger', 89004.03);
-insert into car (id, make, model, price) values (651, 'Dodge', 'Dakota Club', 91291.13);
-insert into car (id, make, model, price) values (652, 'Ford', 'F-Series', 39027.68);
-insert into car (id, make, model, price) values (653, 'Dodge', 'Ram 3500', 90693.07);
-insert into car (id, make, model, price) values (654, 'Isuzu', 'i-Series', 82553.93);
-insert into car (id, make, model, price) values (655, 'Mercedes-Benz', 'E-Class', 30585.12);
-insert into car (id, make, model, price) values (656, 'Lexus', 'LS', 25972.81);
-insert into car (id, make, model, price) values (657, 'Ferrari', '430 Scuderia', 47827.43);
-insert into car (id, make, model, price) values (658, 'Land Rover', 'Range Rover', 81968.26);
-insert into car (id, make, model, price) values (659, 'Chevrolet', 'Venture', 17090.32);
-insert into car (id, make, model, price) values (660, 'BMW', '760', 13632.79);
-insert into car (id, make, model, price) values (661, 'Nissan', 'Quest', 30332.75);
-insert into car (id, make, model, price) values (662, 'Acura', 'Integra', 58829.08);
-insert into car (id, make, model, price) values (663, 'Porsche', 'Cayenne', 41513.93);
-insert into car (id, make, model, price) values (664, 'GMC', 'Savana 3500', 93729.13);
-insert into car (id, make, model, price) values (665, 'Infiniti', 'FX', 11314.42);
-insert into car (id, make, model, price) values (666, 'Lexus', 'IS', 18567.90);
-insert into car (id, make, model, price) values (667, 'Chevrolet', 'TrailBlazer', 23931.52);
-insert into car (id, make, model, price) values (668, 'Volkswagen', 'Routan', 46651.27);
-insert into car (id, make, model, price) values (669, 'Mercury', 'Milan', 24244.61);
-insert into car (id, make, model, price) values (670, 'BMW', 'M5', 14645.16);
-insert into car (id, make, model, price) values (671, 'Volkswagen', 'Cabriolet', 80598.44);
-insert into car (id, make, model, price) values (672, 'Mazda', 'Mazda5', 12592.80);
-insert into car (id, make, model, price) values (673, 'Honda', 'Prelude', 33943.92);
-insert into car (id, make, model, price) values (674, 'GMC', 'Savana 1500', 39863.06);
-insert into car (id, make, model, price) values (675, 'Infiniti', 'Q', 40003.33);
-insert into car (id, make, model, price) values (676, 'Volkswagen', 'Passat', 21836.09);
-insert into car (id, make, model, price) values (677, 'Audi', 'A8', 27307.13);
-insert into car (id, make, model, price) values (678, 'Pontiac', 'Chevette', 17336.40);
-insert into car (id, make, model, price) values (679, 'Saab', '9-3', 33221.86);
-insert into car (id, make, model, price) values (680, 'Oldsmobile', 'Aurora', 16871.52);
-insert into car (id, make, model, price) values (681, 'Suzuki', 'XL7', 73080.96);
-insert into car (id, make, model, price) values (682, 'Suzuki', 'XL-7', 72392.90);
-insert into car (id, make, model, price) values (683, 'Cadillac', 'Seville', 34422.47);
-insert into car (id, make, model, price) values (684, 'Saturn', 'Ion', 86142.96);
-insert into car (id, make, model, price) values (685, 'BMW', '8 Series', 45428.72);
-insert into car (id, make, model, price) values (686, 'Porsche', 'Panamera', 55855.04);
-insert into car (id, make, model, price) values (687, 'Lincoln', 'Continental Mark VII', 34907.52);
-insert into car (id, make, model, price) values (688, 'Mazda', '626', 73976.36);
-insert into car (id, make, model, price) values (689, 'Toyota', 'Camry', 41127.95);
-insert into car (id, make, model, price) values (690, 'Chevrolet', 'G-Series 1500', 36379.36);
-insert into car (id, make, model, price) values (691, 'Volkswagen', 'GTI', 71828.30);
-insert into car (id, make, model, price) values (692, 'Mercedes-Benz', '300CE', 47469.43);
-insert into car (id, make, model, price) values (693, 'Toyota', 'Highlander', 70693.33);
-insert into car (id, make, model, price) values (694, 'Suzuki', 'SJ', 89956.93);
-insert into car (id, make, model, price) values (695, 'Oldsmobile', 'Bravada', 44019.73);
-insert into car (id, make, model, price) values (696, 'Pontiac', '6000', 53951.45);
-insert into car (id, make, model, price) values (697, 'Mazda', 'Tribute', 95006.72);
-insert into car (id, make, model, price) values (698, 'Mitsubishi', 'Montero', 29327.52);
-insert into car (id, make, model, price) values (699, 'Audi', 'A4', 95912.94);
-insert into car (id, make, model, price) values (700, 'Honda', 'Pilot', 84113.51);
-insert into car (id, make, model, price) values (701, 'Mazda', 'B-Series', 90065.00);
-insert into car (id, make, model, price) values (702, 'Mazda', 'RX-7', 45607.73);
-insert into car (id, make, model, price) values (703, 'Ford', 'LTD', 77606.43);
-insert into car (id, make, model, price) values (704, 'Ford', 'Probe', 74869.03);
-insert into car (id, make, model, price) values (705, 'Volvo', 'C70', 36910.64);
-insert into car (id, make, model, price) values (706, 'Cadillac', 'DeVille', 75804.12);
-insert into car (id, make, model, price) values (707, 'Ford', 'E250', 28392.26);
-insert into car (id, make, model, price) values (708, 'Ford', 'Econoline E150', 70842.68);
-insert into car (id, make, model, price) values (709, 'Suzuki', 'SJ', 46353.14);
-insert into car (id, make, model, price) values (710, 'Mercedes-Benz', 'CLS-Class', 92217.47);
-insert into car (id, make, model, price) values (711, 'Infiniti', 'QX', 51985.18);
-insert into car (id, make, model, price) values (712, 'Hyundai', 'Equus', 75180.34);
-insert into car (id, make, model, price) values (713, 'Mazda', '626', 69774.55);
-insert into car (id, make, model, price) values (714, 'Oldsmobile', '98', 48091.55);
-insert into car (id, make, model, price) values (715, 'Dodge', 'Viper', 39305.66);
-insert into car (id, make, model, price) values (716, 'Volkswagen', 'GTI', 44618.45);
-insert into car (id, make, model, price) values (717, 'Maybach', '57', 48551.35);
-insert into car (id, make, model, price) values (718, 'Mazda', 'MX-5', 87275.90);
-insert into car (id, make, model, price) values (719, 'Mitsubishi', 'Pajero', 17931.05);
-insert into car (id, make, model, price) values (720, 'Ford', 'EXP', 14810.58);
-insert into car (id, make, model, price) values (721, 'Buick', 'Rainier', 43943.46);
-insert into car (id, make, model, price) values (722, 'Audi', 'A5', 60221.27);
-insert into car (id, make, model, price) values (723, 'Dodge', 'Caravan', 32624.68);
-insert into car (id, make, model, price) values (724, 'Dodge', 'Caravan', 70201.72);
-insert into car (id, make, model, price) values (725, 'Chevrolet', 'Corvette', 84694.52);
-insert into car (id, make, model, price) values (726, 'Ram', '2500', 81163.59);
-insert into car (id, make, model, price) values (727, 'Subaru', 'Leone', 16779.50);
-insert into car (id, make, model, price) values (728, 'Mercury', 'Monterey', 86585.06);
-insert into car (id, make, model, price) values (729, 'Acura', 'TL', 78647.19);
-insert into car (id, make, model, price) values (730, 'Mazda', 'B-Series Plus', 15225.75);
-insert into car (id, make, model, price) values (731, 'Infiniti', 'EX', 89105.15);
-insert into car (id, make, model, price) values (732, 'BMW', 'X5', 30953.51);
-insert into car (id, make, model, price) values (733, 'Pontiac', 'Solstice', 81406.42);
-insert into car (id, make, model, price) values (734, 'Aston Martin', 'Vantage', 16036.49);
-insert into car (id, make, model, price) values (735, 'Mercury', 'Sable', 60384.59);
-insert into car (id, make, model, price) values (736, 'Hyundai', 'Sonata', 17199.97);
-insert into car (id, make, model, price) values (737, 'Chevrolet', 'Express 3500', 45720.09);
-insert into car (id, make, model, price) values (738, 'Toyota', 'Corolla', 73388.69);
-insert into car (id, make, model, price) values (739, 'Volvo', 'C70', 19115.18);
-insert into car (id, make, model, price) values (740, 'Ford', 'Ranger', 14167.85);
-insert into car (id, make, model, price) values (741, 'Cadillac', 'CTS', 65976.18);
-insert into car (id, make, model, price) values (742, 'Acura', 'TL', 49681.52);
-insert into car (id, make, model, price) values (743, 'Volkswagen', 'Passat', 81357.71);
-insert into car (id, make, model, price) values (744, 'Mitsubishi', 'Montero', 92814.75);
-insert into car (id, make, model, price) values (745, 'Nissan', 'Maxima', 81702.88);
-insert into car (id, make, model, price) values (746, 'Hummer', 'H1', 47348.65);
-insert into car (id, make, model, price) values (747, 'Dodge', 'D150 Club', 44940.57);
-insert into car (id, make, model, price) values (748, 'Lexus', 'RX', 13706.40);
-insert into car (id, make, model, price) values (749, 'Infiniti', 'G25', 58878.21);
-insert into car (id, make, model, price) values (750, 'BMW', 'M6', 10471.52);
-insert into car (id, make, model, price) values (751, 'Scion', 'xD', 61509.76);
-insert into car (id, make, model, price) values (752, 'Dodge', 'Caravan', 66759.63);
-insert into car (id, make, model, price) values (753, 'Toyota', 'Prius Plug-in Hybrid', 83710.52);
-insert into car (id, make, model, price) values (754, 'Ford', 'Escape', 80895.45);
-insert into car (id, make, model, price) values (755, 'Dodge', 'Dakota', 48747.89);
-insert into car (id, make, model, price) values (756, 'Lexus', 'LS', 37246.41);
-insert into car (id, make, model, price) values (757, 'Infiniti', 'Q', 22042.72);
-insert into car (id, make, model, price) values (758, 'Scion', 'tC', 15330.09);
-insert into car (id, make, model, price) values (759, 'Nissan', '240SX', 28306.61);
-insert into car (id, make, model, price) values (760, 'Land Rover', 'LR2', 89465.45);
-insert into car (id, make, model, price) values (761, 'Plymouth', 'Voyager', 81873.80);
-insert into car (id, make, model, price) values (762, 'Chevrolet', 'Monte Carlo', 37680.20);
-insert into car (id, make, model, price) values (763, 'Citroën', 'CX', 60523.14);
-insert into car (id, make, model, price) values (764, 'Mitsubishi', 'Challenger', 44252.12);
-insert into car (id, make, model, price) values (765, 'Chevrolet', 'Astro', 59345.47);
-insert into car (id, make, model, price) values (766, 'Land Rover', 'Discovery', 36925.72);
-insert into car (id, make, model, price) values (767, 'Dodge', 'Spirit', 37322.12);
-insert into car (id, make, model, price) values (768, 'Chevrolet', 'Tracker', 55192.02);
-insert into car (id, make, model, price) values (769, 'Land Rover', 'Range Rover', 91155.41);
-insert into car (id, make, model, price) values (770, 'Land Rover', 'Range Rover', 46993.47);
-insert into car (id, make, model, price) values (771, 'GMC', 'Sierra 2500', 24909.53);
-insert into car (id, make, model, price) values (772, 'BMW', '750', 69329.23);
-insert into car (id, make, model, price) values (773, 'GMC', 'Vandura G3500', 76719.48);
-insert into car (id, make, model, price) values (774, 'Dodge', 'Avenger', 34191.16);
-insert into car (id, make, model, price) values (775, 'Mazda', 'CX-7', 78584.06);
-insert into car (id, make, model, price) values (776, 'Pontiac', 'Grand Am', 44250.40);
-insert into car (id, make, model, price) values (777, 'Volkswagen', 'GLI', 29599.99);
-insert into car (id, make, model, price) values (778, 'GMC', 'Sierra 3500', 39973.60);
-insert into car (id, make, model, price) values (779, 'Hyundai', 'Genesis Coupe', 63157.28);
-insert into car (id, make, model, price) values (780, 'Land Rover', 'Defender 90', 72778.14);
-insert into car (id, make, model, price) values (781, 'Ford', 'Econoline E250', 20704.65);
-insert into car (id, make, model, price) values (782, 'Maserati', 'Quattroporte', 45516.38);
-insert into car (id, make, model, price) values (783, 'Pontiac', 'GTO', 74073.77);
-insert into car (id, make, model, price) values (784, 'Pontiac', 'Firebird', 83687.56);
-insert into car (id, make, model, price) values (785, 'GMC', 'Yukon XL 1500', 31335.18);
-insert into car (id, make, model, price) values (786, 'Mercury', 'Cougar', 38358.30);
-insert into car (id, make, model, price) values (787, 'Mercedes-Benz', 'E-Class', 13936.26);
-insert into car (id, make, model, price) values (788, 'Mercedes-Benz', 'CLK-Class', 53197.56);
-insert into car (id, make, model, price) values (789, 'Ford', 'Edge', 47639.82);
-insert into car (id, make, model, price) values (790, 'Porsche', '928', 41139.72);
-insert into car (id, make, model, price) values (791, 'Maserati', 'GranTurismo', 81218.52);
-insert into car (id, make, model, price) values (792, 'Volkswagen', 'GTI', 15009.64);
-insert into car (id, make, model, price) values (793, 'Toyota', 'Solara', 12147.99);
-insert into car (id, make, model, price) values (794, 'Mercury', 'Mariner', 56150.40);
-insert into car (id, make, model, price) values (795, 'Mercedes-Benz', 'CL-Class', 88096.67);
-insert into car (id, make, model, price) values (796, 'Mercedes-Benz', 'GL-Class', 55606.88);
-insert into car (id, make, model, price) values (797, 'Hyundai', 'Elantra', 56852.13);
-insert into car (id, make, model, price) values (798, 'Lincoln', 'Mark VIII', 69599.52);
-insert into car (id, make, model, price) values (799, 'Dodge', 'Ram 1500', 69136.42);
-insert into car (id, make, model, price) values (800, 'Lincoln', 'Navigator L', 99217.05);
-insert into car (id, make, model, price) values (801, 'Mitsubishi', 'Montero Sport', 20358.92);
-insert into car (id, make, model, price) values (802, 'Dodge', 'Avenger', 77006.13);
-insert into car (id, make, model, price) values (803, 'Saab', '9-3', 26932.20);
-insert into car (id, make, model, price) values (804, 'Jaguar', 'XF', 84795.99);
-insert into car (id, make, model, price) values (805, 'Buick', 'Electra', 27242.49);
-insert into car (id, make, model, price) values (806, 'Toyota', 'TundraMax', 15405.13);
-insert into car (id, make, model, price) values (807, 'Pontiac', 'Daewoo Kalos', 40500.70);
-insert into car (id, make, model, price) values (808, 'Suzuki', 'XL-7', 39443.48);
-insert into car (id, make, model, price) values (809, 'BMW', '6 Series', 79994.97);
-insert into car (id, make, model, price) values (810, 'Ford', 'Torino', 53915.54);
-insert into car (id, make, model, price) values (811, 'Rolls-Royce', 'Ghost', 19627.14);
-insert into car (id, make, model, price) values (812, 'Mercedes-Benz', 'G-Class', 99815.20);
-insert into car (id, make, model, price) values (813, 'Mercedes-Benz', 'E-Class', 28540.80);
-insert into car (id, make, model, price) values (814, 'Ford', 'Bronco', 31424.58);
-insert into car (id, make, model, price) values (815, 'Lotus', 'Exige', 33530.04);
-insert into car (id, make, model, price) values (816, 'Toyota', 'Sequoia', 33382.43);
-insert into car (id, make, model, price) values (817, 'Ford', 'Focus', 26115.79);
-insert into car (id, make, model, price) values (818, 'Dodge', 'Ram 1500', 67693.91);
-insert into car (id, make, model, price) values (819, 'Hummer', 'H3', 54415.97);
-insert into car (id, make, model, price) values (820, 'Land Rover', 'LR2', 41178.48);
-insert into car (id, make, model, price) values (821, 'Dodge', 'Ram Van 2500', 23451.06);
-insert into car (id, make, model, price) values (822, 'Nissan', 'Maxima', 90813.34);
-insert into car (id, make, model, price) values (823, 'Jeep', 'Patriot', 70607.94);
-insert into car (id, make, model, price) values (824, 'Saturn', 'Relay', 77384.12);
-insert into car (id, make, model, price) values (825, 'GMC', 'Savana 1500', 66306.01);
-insert into car (id, make, model, price) values (826, 'Mercedes-Benz', 'CLK-Class', 32446.20);
-insert into car (id, make, model, price) values (827, 'Ford', 'Explorer', 89169.03);
-insert into car (id, make, model, price) values (828, 'Ford', 'Club Wagon', 40475.59);
-insert into car (id, make, model, price) values (829, 'Mercury', 'Montego', 68933.21);
-insert into car (id, make, model, price) values (830, 'Chevrolet', 'Suburban 2500', 50277.24);
-insert into car (id, make, model, price) values (831, 'Dodge', 'Viper', 41393.98);
-insert into car (id, make, model, price) values (832, 'Ford', 'Focus', 82430.99);
-insert into car (id, make, model, price) values (833, 'Nissan', 'Sentra', 62275.10);
-insert into car (id, make, model, price) values (834, 'Toyota', '4Runner', 21389.38);
-insert into car (id, make, model, price) values (835, 'Chevrolet', 'Express 2500', 51828.64);
-insert into car (id, make, model, price) values (836, 'Audi', 'S4', 15293.26);
-insert into car (id, make, model, price) values (837, 'Toyota', 'Camry', 73176.60);
-insert into car (id, make, model, price) values (838, 'BMW', 'M5', 49418.28);
-insert into car (id, make, model, price) values (839, 'GMC', 'Canyon', 76421.85);
-insert into car (id, make, model, price) values (840, 'Mitsubishi', 'Galant', 21229.18);
-insert into car (id, make, model, price) values (841, 'Land Rover', 'Range Rover', 14010.54);
-insert into car (id, make, model, price) values (842, 'Hyundai', 'Sonata', 44595.45);
-insert into car (id, make, model, price) values (843, 'Chevrolet', 'Sportvan G30', 96600.14);
-insert into car (id, make, model, price) values (844, 'Honda', 'Civic', 27226.39);
-insert into car (id, make, model, price) values (845, 'GMC', '3500', 11165.07);
-insert into car (id, make, model, price) values (846, 'Buick', 'LeSabre', 77322.09);
-insert into car (id, make, model, price) values (847, 'Volkswagen', 'Passat', 78708.34);
-insert into car (id, make, model, price) values (848, 'Pontiac', 'Grand Am', 14541.22);
-insert into car (id, make, model, price) values (849, 'Chevrolet', '3500', 95345.72);
-insert into car (id, make, model, price) values (850, 'Mazda', 'Mazda3', 49222.24);
-insert into car (id, make, model, price) values (851, 'Lincoln', 'MKX', 42825.07);
-insert into car (id, make, model, price) values (852, 'Chevrolet', 'Silverado 1500', 82759.11);
-insert into car (id, make, model, price) values (853, 'Ram', '1500', 52811.34);
-insert into car (id, make, model, price) values (854, 'Jeep', 'Patriot', 85962.96);
-insert into car (id, make, model, price) values (855, 'Toyota', 'T100', 74479.24);
-insert into car (id, make, model, price) values (856, 'Chevrolet', 'Corvette', 35042.04);
-insert into car (id, make, model, price) values (857, 'GMC', '3500 Club Coupe', 60365.93);
-insert into car (id, make, model, price) values (858, 'Porsche', '968', 50815.45);
-insert into car (id, make, model, price) values (859, 'GMC', 'Vandura G3500', 14125.15);
-insert into car (id, make, model, price) values (860, 'Toyota', 'Echo', 26340.29);
-insert into car (id, make, model, price) values (861, 'Cadillac', 'DeVille', 14681.03);
-insert into car (id, make, model, price) values (862, 'Aston Martin', 'DB9', 88060.25);
-insert into car (id, make, model, price) values (863, 'Nissan', 'Quest', 56090.91);
-insert into car (id, make, model, price) values (864, 'Acura', 'Integra', 95761.20);
-insert into car (id, make, model, price) values (865, 'Kia', 'Sorento', 13787.29);
-insert into car (id, make, model, price) values (866, 'Toyota', 'Tacoma Xtra', 53099.40);
-insert into car (id, make, model, price) values (867, 'Oldsmobile', 'Ciera', 42041.64);
-insert into car (id, make, model, price) values (868, 'Honda', 'Accord', 28779.10);
-insert into car (id, make, model, price) values (869, 'Mitsubishi', 'Truck', 62265.77);
-insert into car (id, make, model, price) values (870, 'Lexus', 'HS', 61129.31);
-insert into car (id, make, model, price) values (871, 'GMC', 'Suburban 1500', 73249.39);
-insert into car (id, make, model, price) values (872, 'Volkswagen', 'Passat', 98790.97);
-insert into car (id, make, model, price) values (873, 'Kia', 'Sportage', 17106.77);
-insert into car (id, make, model, price) values (874, 'Mitsubishi', 'Galant', 30628.41);
-insert into car (id, make, model, price) values (875, 'Chevrolet', 'Impala', 52873.39);
-insert into car (id, make, model, price) values (876, 'Volvo', 'XC60', 32966.53);
-insert into car (id, make, model, price) values (877, 'Pontiac', 'GTO', 98857.30);
-insert into car (id, make, model, price) values (878, 'Oldsmobile', 'Custom Cruiser', 45502.35);
-insert into car (id, make, model, price) values (879, 'Volkswagen', 'Routan', 98099.73);
-insert into car (id, make, model, price) values (880, 'Chevrolet', '2500', 71335.86);
-insert into car (id, make, model, price) values (881, 'Ford', 'Tempo', 57819.51);
-insert into car (id, make, model, price) values (882, 'Buick', 'Century', 95162.68);
-insert into car (id, make, model, price) values (883, 'GMC', 'Sierra 1500', 87632.43);
-insert into car (id, make, model, price) values (884, 'Chevrolet', 'Tahoe', 41672.60);
-insert into car (id, make, model, price) values (885, 'Pontiac', 'Sunbird', 17152.25);
-insert into car (id, make, model, price) values (886, 'Toyota', 'Prius Plug-in', 41750.53);
-insert into car (id, make, model, price) values (887, 'Ford', 'EXP', 19183.18);
-insert into car (id, make, model, price) values (888, 'Pontiac', 'Bonneville', 52068.27);
-insert into car (id, make, model, price) values (889, 'GMC', '2500', 29406.03);
-insert into car (id, make, model, price) values (890, 'Audi', '5000CS', 21916.88);
-insert into car (id, make, model, price) values (891, 'Chrysler', 'PT Cruiser', 72869.32);
-insert into car (id, make, model, price) values (892, 'Ford', 'Econoline E250', 92397.62);
-insert into car (id, make, model, price) values (893, 'Chrysler', '300', 44464.52);
-insert into car (id, make, model, price) values (894, 'Volvo', 'V70', 99363.05);
-insert into car (id, make, model, price) values (895, 'Volkswagen', 'Tiguan', 10835.17);
-insert into car (id, make, model, price) values (896, 'Subaru', 'Alcyone SVX', 20196.73);
-insert into car (id, make, model, price) values (897, 'Acura', 'TL', 80488.23);
-insert into car (id, make, model, price) values (898, 'Rolls-Royce', 'Phantom', 17436.67);
-insert into car (id, make, model, price) values (899, 'GMC', 'Canyon', 11606.63);
-insert into car (id, make, model, price) values (900, 'Toyota', 'Sequoia', 83549.09);
-insert into car (id, make, model, price) values (901, 'Toyota', 'MR2', 33991.90);
-insert into car (id, make, model, price) values (902, 'Mitsubishi', 'Lancer Evolution', 73532.94);
-insert into car (id, make, model, price) values (903, 'Cadillac', 'CTS-V', 46196.86);
-insert into car (id, make, model, price) values (904, 'Toyota', 'Corolla', 21837.56);
-insert into car (id, make, model, price) values (905, 'Honda', 'Prelude', 76807.21);
-insert into car (id, make, model, price) values (906, 'Mercury', 'Cougar', 12424.74);
-insert into car (id, make, model, price) values (907, 'Ford', 'Club Wagon', 60429.06);
-insert into car (id, make, model, price) values (908, 'Suzuki', 'XL-7', 86332.16);
-insert into car (id, make, model, price) values (909, 'Pontiac', 'Montana', 94515.46);
-insert into car (id, make, model, price) values (910, 'Pontiac', 'Bonneville', 67342.58);
-insert into car (id, make, model, price) values (911, 'Chevrolet', 'Impala', 18956.38);
-insert into car (id, make, model, price) values (912, 'Infiniti', 'J', 83048.43);
-insert into car (id, make, model, price) values (913, 'Buick', 'Skyhawk', 30634.94);
-insert into car (id, make, model, price) values (914, 'Hyundai', 'Azera', 80877.17);
-insert into car (id, make, model, price) values (915, 'Volvo', 'XC60', 67514.28);
-insert into car (id, make, model, price) values (916, 'Toyota', 'Matrix', 44807.57);
-insert into car (id, make, model, price) values (917, 'Porsche', '911', 51750.68);
-insert into car (id, make, model, price) values (918, 'Ferrari', '612 Scaglietti', 83256.19);
-insert into car (id, make, model, price) values (919, 'MINI', 'Clubman', 95537.69);
-insert into car (id, make, model, price) values (920, 'Porsche', 'Boxster', 31711.93);
-insert into car (id, make, model, price) values (921, 'Honda', 'Element', 64847.12);
-insert into car (id, make, model, price) values (922, 'Volvo', 'S60', 37660.63);
-insert into car (id, make, model, price) values (923, 'Mazda', '626', 96638.89);
-insert into car (id, make, model, price) values (924, 'Oldsmobile', 'Cutlass', 20153.51);
-insert into car (id, make, model, price) values (925, 'Suzuki', 'Sidekick', 46817.08);
-insert into car (id, make, model, price) values (926, 'Chevrolet', 'Suburban 1500', 67767.33);
-insert into car (id, make, model, price) values (927, 'Ford', 'E150', 63923.04);
-insert into car (id, make, model, price) values (928, 'Volkswagen', 'Touareg', 47786.81);
-insert into car (id, make, model, price) values (929, 'Dodge', 'Ram 3500', 89233.52);
-insert into car (id, make, model, price) values (930, 'Honda', 'Odyssey', 27521.25);
-insert into car (id, make, model, price) values (931, 'Suzuki', 'Grand Vitara', 46746.22);
-insert into car (id, make, model, price) values (932, 'Mercury', 'Grand Marquis', 29220.31);
-insert into car (id, make, model, price) values (933, 'Hyundai', 'XG350', 83823.34);
-insert into car (id, make, model, price) values (934, 'GMC', '3500', 27917.97);
-insert into car (id, make, model, price) values (935, 'Dodge', 'Ram Wagon B250', 74782.26);
-insert into car (id, make, model, price) values (936, 'Saturn', 'Aura', 56248.37);
-insert into car (id, make, model, price) values (937, 'Mitsubishi', '3000GT', 55415.74);
-insert into car (id, make, model, price) values (938, 'GMC', 'Envoy XUV', 23307.75);
-insert into car (id, make, model, price) values (939, 'Volkswagen', 'GTI', 45874.92);
-insert into car (id, make, model, price) values (940, 'Volkswagen', 'Fox', 99165.24);
-insert into car (id, make, model, price) values (941, 'Cadillac', 'Escalade', 49009.34);
-insert into car (id, make, model, price) values (942, 'Audi', 'A6', 34188.46);
-insert into car (id, make, model, price) values (943, 'Subaru', 'Alcyone SVX', 60451.30);
-insert into car (id, make, model, price) values (944, 'Jeep', 'Grand Cherokee', 72653.88);
-insert into car (id, make, model, price) values (945, 'Chevrolet', 'Corvette', 33513.43);
-insert into car (id, make, model, price) values (946, 'Audi', 'TT', 20434.92);
-insert into car (id, make, model, price) values (947, 'Isuzu', 'Rodeo', 68279.13);
-insert into car (id, make, model, price) values (948, 'Toyota', 'Land Cruiser', 71642.00);
-insert into car (id, make, model, price) values (949, 'Lincoln', 'Continental', 34536.00);
-insert into car (id, make, model, price) values (950, 'Mitsubishi', 'Pajero', 26603.26);
-insert into car (id, make, model, price) values (951, 'Dodge', 'Grand Caravan', 51537.98);
-insert into car (id, make, model, price) values (952, 'Chevrolet', 'Beretta', 11514.68);
-insert into car (id, make, model, price) values (953, 'Mitsubishi', 'Galant', 92229.26);
-insert into car (id, make, model, price) values (954, 'Nissan', 'Frontier', 97485.97);
-insert into car (id, make, model, price) values (955, 'Plymouth', 'Voyager', 11341.86);
-insert into car (id, make, model, price) values (956, 'Land Rover', 'Defender', 57739.52);
-insert into car (id, make, model, price) values (957, 'BMW', 'X5', 88461.33);
-insert into car (id, make, model, price) values (958, 'Pontiac', 'Firebird', 27780.85);
-insert into car (id, make, model, price) values (959, 'Ford', 'Crown Victoria', 38941.15);
-insert into car (id, make, model, price) values (960, 'Holden', 'Monaro', 74952.99);
-insert into car (id, make, model, price) values (961, 'Volkswagen', 'Jetta', 28337.54);
-insert into car (id, make, model, price) values (962, 'Dodge', 'Viper', 90022.01);
-insert into car (id, make, model, price) values (963, 'Audi', 'A4', 34192.26);
-insert into car (id, make, model, price) values (964, 'Buick', 'Skylark', 71569.76);
-insert into car (id, make, model, price) values (965, 'Ford', 'F-350 Super Duty', 83390.19);
-insert into car (id, make, model, price) values (966, 'Mazda', '626', 44340.60);
-insert into car (id, make, model, price) values (967, 'Mazda', '929', 86276.93);
-insert into car (id, make, model, price) values (968, 'Chevrolet', 'LUV', 45568.13);
-insert into car (id, make, model, price) values (969, 'Mitsubishi', 'Mighty Max', 60898.23);
-insert into car (id, make, model, price) values (970, 'GMC', 'Sierra 1500', 19037.65);
-insert into car (id, make, model, price) values (971, 'Mercedes-Benz', 'CL-Class', 88595.58);
-insert into car (id, make, model, price) values (972, 'BMW', '5 Series', 17873.18);
-insert into car (id, make, model, price) values (973, 'Toyota', 'Paseo', 38658.63);
-insert into car (id, make, model, price) values (974, 'Mitsubishi', 'Lancer', 92545.06);
-insert into car (id, make, model, price) values (975, 'Ford', 'Aerostar', 56213.26);
-insert into car (id, make, model, price) values (976, 'Ram', '1500', 25788.14);
-insert into car (id, make, model, price) values (977, 'Dodge', 'Ram 1500', 83392.55);
-insert into car (id, make, model, price) values (978, 'Mercury', 'Milan', 98126.95);
-insert into car (id, make, model, price) values (979, 'Porsche', '911', 22719.29);
-insert into car (id, make, model, price) values (980, 'Geo', 'Tracker', 74287.31);
-insert into car (id, make, model, price) values (981, 'Acura', 'RDX', 89380.22);
-insert into car (id, make, model, price) values (982, 'GMC', '3500 Club Coupe', 27998.12);
-insert into car (id, make, model, price) values (983, 'Suzuki', 'Vitara', 24973.77);
-insert into car (id, make, model, price) values (984, 'Acura', 'ZDX', 69520.44);
-insert into car (id, make, model, price) values (985, 'Nissan', 'Pathfinder', 87742.18);
-insert into car (id, make, model, price) values (986, 'Mercury', 'Marquis', 70254.31);
-insert into car (id, make, model, price) values (987, 'Lincoln', 'Town Car', 72002.56);
-insert into car (id, make, model, price) values (988, 'Toyota', 'Tacoma', 46302.68);
-insert into car (id, make, model, price) values (989, 'GMC', 'Yukon XL 1500', 63518.70);
-insert into car (id, make, model, price) values (990, 'Mercedes-Benz', 'C-Class', 25549.83);
-insert into car (id, make, model, price) values (991, 'Pontiac', 'Firefly', 57212.51);
-insert into car (id, make, model, price) values (992, 'Lexus', 'LS', 59901.13);
-insert into car (id, make, model, price) values (993, 'Mercury', 'Cougar', 45452.67);
-insert into car (id, make, model, price) values (994, 'Austin', 'Mini', 66378.28);
-insert into car (id, make, model, price) values (995, 'Volkswagen', 'GTI', 89874.02);
-insert into car (id, make, model, price) values (996, 'Morgan', 'Aero 8', 92759.38);
-insert into car (id, make, model, price) values (997, 'Mazda', 'CX-5', 89735.67);
-insert into car (id, make, model, price) values (998, 'Mitsubishi', 'GTO', 82959.97);
-insert into car (id, make, model, price) values (999, 'Ford', 'Thunderbird', 46541.19);
-insert into car (id, make, model, price) values (1000, 'Toyota', 'FJ Cruiser', 13031.50);
+),
+INSERT INTO car (id, make, model, price) 
+VALUES(1, 'Lexus', 'GS', 94617.93),
+   (2, 'Oldsmobile', 'Cutlass', 27641.54),
+   (3, 'Honda', 'Insight', 38022.89),
+   (4, 'Ford', 'Mustang', 36364.93),
+   (5, 'Oldsmobile', 'Bravada', 66886.02),
+   (6, 'Cadillac', 'Catera', 71034.08),
+   (7, 'Mercedes-Benz', 'CLK-Class', 13143.98),
+   (8, 'Subaru', 'XT', 81195.88),
+   (9, 'Cadillac', 'Escalade', 41258.21),
+   (10, 'Land Rover', 'Range Rover Sport', 16466.82),
+   (11, 'Pontiac', 'Grand Prix', 90396.86),
+   (12, 'Toyota', 'Paseo', 52458.91),
+   (13, 'Oldsmobile', 'Achieva', 58424.48),
+   (14, 'Honda', 'S2000', 83558.42),
+   (15, 'Toyota', 'Paseo', 31237.57),
+   (16, 'Suzuki', 'Grand Vitara', 66561.38),
+   (17, 'Toyota', 'Land Cruiser', 51808.78),
+   (18, 'Volvo', 'C70', 10918.09),
+   (19, 'Mazda', 'Miata MX-5', 94066.66),
+   (20, 'Geo', 'Metro', 73921.21),
+   (21, 'Nissan', 'Armada', 34009.79),
+   (22, 'Chevrolet', 'Silverado 1500', 71012.82),
+   (23, 'Volkswagen', 'Jetta', 37126.80),
+   (24, 'Audi', 'Q5', 72941.76),
+   (25, 'Porsche', 'Boxster', 82226.61),
+   (26, 'Mercedes-Benz', 'C-Class', 36669.59),
+   (27, 'Oldsmobile', 'Bravada', 37009.26),
+   (28, 'Lexus', 'ES', 71231.40),
+   (29, 'Mercury', 'Tracer', 44602.81),
+   (30, 'Toyota', 'Tacoma', 35063.46),
+   (31, 'Volkswagen', 'Eurovan', 43144.01),
+   (32, 'Mercury', 'Cougar', 84034.65),
+   (33, 'Mercury', 'Mariner', 21504.58),
+   (34, 'Buick', 'Regal', 26034.78),
+   (35, 'Mitsubishi', 'Mirage', 46803.07),
+   (36, 'Cadillac', 'Seville', 98870.64),
+   (37, 'Subaru', 'Forester', 68112.31),
+   (38, 'Audi', 'R8', 76476.11),
+   (39, 'Audi', 'Q7', 31958.94),
+   (40, 'Ford', 'Laser', 17327.48),
+   (41, 'Toyota', 'Tundra', 53337.24),
+   (42, 'Suzuki', 'Grand Vitara', 85686.22),
+   (43, 'Mercury', 'Cougar', 99570.35),
+   (44, 'Mitsubishi', 'Challenger', 57340.03),
+   (45, 'Toyota', 'Camry Solara', 19392.72),
+   (46, 'Chevrolet', 'Silverado', 64903.03),
+   (47, 'Mitsubishi', 'Lancer', 19997.04),
+   (48, 'Honda', 'Accord', 90101.76),
+   (49, 'GMC', 'Sierra 1500', 40950.06),
+   (50, 'Mazda', 'Mazda3', 23462.87),
+   (51, 'Nissan', 'Pathfinder', 98313.81),
+   (52, 'Honda', 'Accord', 44605.36),
+   (53, 'Mercedes-Benz', 'SL-Class', 41699.57),
+   (54, 'Maybach', '57', 16479.62),
+   (55, 'Subaru', 'Forester', 76981.52),
+   (56, 'Scion', 'xA', 74572.32),
+   (57, 'Cadillac', 'SRX', 50728.50),
+   (58, 'Lexus', 'LS Hybrid', 18616.60),
+   (59, 'Suzuki', 'Aerio', 82297.72),
+   (60, 'Chevrolet', 'Express 2500', 47509.92),
+   (61, 'Acura', 'Integra', 14853.02),
+   (62, 'Lincoln', 'Town Car', 82885.45),
+   (63, 'Toyota', 'Tacoma', 18556.98),
+   (64, 'Lincoln', 'Navigator L', 88553.79),
+   (65, 'Lamborghini', 'Gallardo', 32263.66),
+   (66, 'Ford', 'Escort', 13206.48),
+   (67, 'Lexus', 'GS', 45250.75),
+   (68, 'Pontiac', 'Daewoo Kalos', 69766.41),
+   (69, 'Mercedes-Benz', 'SLS AMG', 96803.91),
+   (70, 'Mazda', 'MX-5', 87190.26),
+   (71, 'Isuzu', 'Ascender', 84906.53),
+   (72, 'BMW', '645', 76862.97),
+   (73, 'Chevrolet', 'Silverado', 75985.35),
+   (74, 'Ford', 'Thunderbird', 44479.43),
+   (75, 'Lexus', 'GX', 59460.72),
+   (76, 'Subaru', 'XT', 47845.56),
+   (77, 'Audi', 'S5', 15298.15),
+   (78, 'Audi', '4000', 87822.65),
+   (79, 'Buick', 'Skyhawk', 23506.31),
+   (80, 'GMC', 'Rally Wagon 2500', 36791.54),
+   (81, 'Audi', 'A6', 74037.12),
+   (82, 'MINI', 'Clubman', 19470.61),
+   (83, 'Mazda', 'Miata MX-5', 98883.29),
+   (84, 'Lincoln', 'Zephyr', 25137.59),
+   (85, 'Mazda', '929', 88432.86),
+   (86, 'Mercedes-Benz', 'R-Class', 62817.54),
+   (87, 'Ford', 'Explorer Sport Trac', 28665.40),
+   (88, 'Mercedes-Benz', 'SLK-Class', 74690.80),
+   (89, 'Dodge', 'Neon', 65388.61),
+   (90, 'Buick', 'Skylark', 52227.53),
+   (91, 'Hyundai', 'Accent', 48787.69),
+   (92, 'Chrysler', 'Crossfire', 10575.85),
+   (93, 'Oldsmobile', 'Achieva', 49366.27),
+   (94, 'Volkswagen', 'Cabriolet', 44137.57),
+   (95, 'Pontiac', 'LeMans', 22252.67),
+   (96, 'Chevrolet', 'Camaro', 10812.78),
+   (97, 'Mercedes-Benz', 'SL-Class', 79219.10),
+   (98, 'Plymouth', 'Neon', 76003.27),
+   (99, 'Mercedes-Benz', 'M-Class', 56387.84),
+   (100, 'Chevrolet', 'Suburban 1500', 49535.98),
+   (101, 'Ford', 'GT500', 25368.88),
+   (102, 'Mercedes-Benz', 'S-Class', 56194.57),
+   (103, 'Nissan', 'Sentra', 95818.54),
+   (104, 'Lexus', 'SC', 66463.00),
+   (105, 'Jaguar', 'XJ', 89463.59),
+   (106, 'Nissan', 'Quest', 61924.31),
+   (107, 'Acura', 'TL', 39823.75),
+   (108, 'Volvo', 'C70', 60035.04),
+   (109, 'Ford', 'Expedition', 84041.16),
+   (110, 'Acura', 'SLX', 46898.46),
+   (111, 'BMW', 'X3', 43013.40),
+   (112, 'BMW', 'M5', 33050.97),
+   (113, 'Dodge', 'Ram Wagon B350', 23638.49),
+   (114, 'Dodge', 'Caravan', 50408.42),
+   (115, 'Volkswagen', 'Jetta', 10353.21),
+   (116, 'Volvo', 'V50', 23715.09),
+   (117, 'Jeep', 'Cherokee', 70105.90),
+   (118, 'Chevrolet', 'Impala', 17254.48),
+   (119, 'Mitsubishi', 'Truck', 18504.45),
+   (120, 'Dodge', 'Avenger', 44119.23),
+   (121, 'Honda', 'Accord', 72081.37),
+   (122, 'Jaguar', 'XJ Series', 69925.66),
+   (123, 'Lexus', 'IS-F', 20520.13),
+   (124, 'Dodge', 'Spirit', 68425.99),
+   (125, 'Suzuki', 'Grand Vitara', 10282.34),
+   (126, 'Pontiac', 'Grand Prix', 53793.42),
+   (127, 'Mitsubishi', 'Mirage', 14004.33),
+   (128, 'Mercury', 'Sable', 36718.67),
+   (129, 'Mitsubishi', 'Diamante', 34284.85),
+   (130, 'Mercedes-Benz', 'E-Class', 76399.57),
+   (131, 'Hummer', 'H3T', 97624.04),
+   (132, 'Toyota', 'Tundra', 35185.79),
+   (133, 'Infiniti', 'I', 62666.71),
+   (134, 'Audi', 'A6', 98420.96),
+   (135, 'Isuzu', 'Ascender', 69131.57),
+   (136, 'Ford', 'Ranger', 84202.14),
+   (137, 'Chevrolet', 'Corvette', 67772.77),
+   (138, 'Lincoln', 'Continental', 75003.75),
+   (139, 'Volvo', '850', 14426.88),
+   (140, 'Dodge', 'Grand Caravan', 61096.81),
+   (141, 'Buick', 'Electra', 99748.43),
+   (142, 'Mitsubishi', 'Lancer', 57881.23),
+   (143, 'Lincoln', 'Town Car', 45379.26),
+   (144, 'Ford', 'E250', 58391.39),
+   (145, 'Nissan', 'Sentra', 36244.03),
+   (146, 'Chevrolet', 'Suburban', 42804.37),
+   (147, 'Audi', 'riolet', 77420.02),
+   (148, 'Mazda', 'Mazda6', 86086.09),
+   (149, 'Buick', 'Skyhawk', 77644.82),
+   (150, 'Citroën', 'CX', 38726.60),
+   (151, 'Chevrolet', 'G-Series G10', 85042.60),
+   (152, 'Dodge', 'Ram 2500', 72691.61),
+   (153, 'Mercedes-Benz', 'G-Class', 29062.04),
+   (154, 'Suzuki', 'Swift', 88199.59),
+   (155, 'BMW', 'X5', 86915.76),
+   (156, 'Maserati', '228', 75029.04),
+   (157, 'Land Rover', 'Discovery', 71834.80),
+   (158, 'Chevrolet', '1500', 27882.81),
+   (159, 'Dodge', 'Caravan', 64571.23),
+   (160, 'Kia', 'Carens', 32699.10),
+   (161, 'Pontiac', 'Montana', 83025.61),
+   (162, 'Volkswagen', 'Rabbit', 57307.17),
+   (163, 'Ford', 'F250', 81751.67),
+   (164, 'Lotus', 'Esprit', 88626.27),
+   (165, 'Cadillac', 'SRX', 31655.76),
+   (166, 'Jaguar', 'X-Type', 33774.90),
+   (167, 'Ford', 'Expedition', 74456.64),
+   (168, 'Acura', 'TL', 17250.68),
+   (169, 'Mercury', 'Mariner', 85816.73),
+   (170, 'GMC', '2500', 76859.53),
+   (171, 'Lexus', 'ES', 37770.65),
+   (172, 'Jeep', 'Commander', 64580.55),
+   (173, 'Hyundai', 'Tiburon', 41631.09),
+   (174, 'Toyota', 'Yaris', 62945.70),
+   (175, 'Lamborghini', 'Gallardo', 85586.80),
+   (176, 'Oldsmobile', '88', 14180.00),
+   (177, 'Chevrolet', 'Monte Carlo', 28445.47),
+   (178, 'Lincoln', 'Navigator', 31406.20),
+   (179, 'Peugeot', '207', 94009.45),
+   (180, 'BMW', '8 Series', 21324.58),
+   (181, 'Dodge', 'Grand Caravan', 47519.40),
+   (182, 'Ford', 'Crown Victoria', 48117.63),
+   (183, 'Ford', 'Aerostar', 86726.05),
+   (184, 'Volkswagen', 'Jetta', 14627.37),
+   (185, 'Mitsubishi', 'Eclipse', 34860.93),
+   (186, 'Dodge', 'Durango', 80522.98),
+   (187, 'Panoz', 'Esperante', 23125.20),
+   (188, 'Suzuki', 'SX4', 98091.84),
+   (189, 'Ford', 'Taurus', 74504.85),
+   (190, 'Lincoln', 'Navigator L', 96736.95),
+   (191, 'Jaguar', 'S-Type', 76924.71),
+   (192, 'Volkswagen', 'Rabbit', 26660.34),
+   (193, 'Toyota', 'Highlander', 87388.22),
+   (194, 'Subaru', 'Forester', 92159.25),
+   (195, 'Plymouth', 'Laser', 78219.12),
+   (196, 'Volkswagen', 'Fox', 55591.82),
+   (197, 'Ford', 'F-Series', 99416.89),
+   (198, 'Land Rover', 'Range Rover Sport', 21501.58),
+   (199, 'Lincoln', 'Navigator L', 33809.25),
+   (200, 'Kia', 'Sedona', 71799.04),
+   (201, 'Toyota', 'Corolla', 88824.39),
+   (202, 'Lincoln', 'Navigator', 24632.92),
+   (203, 'Mitsubishi', 'Galant', 14806.77),
+   (204, 'Dodge', 'Ram Van 1500', 92552.26),
+   (205, 'GMC', 'Safari', 80025.25),
+   (206, 'Infiniti', 'I', 40977.83),
+   (207, 'Volkswagen', 'Jetta', 94285.76),
+   (208, 'Chevrolet', 'S10', 15505.99),
+   (209, 'Lexus', 'LS', 93163.17),
+   (210, 'Toyota', 'Sequoia', 22160.22),
+   (211, 'Ford', 'Mustang', 39957.96),
+   (212, 'Saab', '9-3', 40860.70),
+   (213, 'Mercedes-Benz', 'SL-Class', 17612.28),
+   (214, 'Chevrolet', 'Express 2500', 43756.93),
+   (215, 'Ford', 'F-Series', 47221.14),
+   (216, 'Ford', 'E250', 72033.86),
+   (217, 'Spyker', 'C8 Spyder', 71142.44),
+   (218, 'Jeep', 'Grand Cherokee', 34620.25),
+   (219, 'Chrysler', 'PT Cruiser', 63585.99),
+   (220, 'Mercury', 'Cougar', 95905.63),
+   (221, 'Mercury', 'Grand Marquis', 87182.50),
+   (222, 'Nissan', 'Frontier', 18578.32),
+   (223, 'Mercedes-Benz', 'CLS-Class', 14586.17),
+   (224, 'Saab', '9000', 94444.12),
+   (225, 'BMW', '3 Series', 68865.08),
+   (226, 'Hyundai', 'Elantra', 16065.72),
+   (227, 'Volkswagen', 'Passat', 61400.93),
+   (228, 'Hyundai', 'Elantra', 52172.59),
+   (229, 'Volvo', 'C70', 60269.63),
+   (230, 'Mercury', 'Marquis', 32513.10),
+   (231, 'Nissan', 'NX', 25513.41),
+   (232, 'Acura', 'Legend', 49615.10),
+   (233, 'Porsche', 'Panamera', 27583.01),
+   (234, 'Toyota', 'Camry Hybrid', 22016.12),
+   (235, 'BMW', '645', 28692.82),
+   (236, 'Dodge', 'Sprinter', 50687.70),
+   (237, 'Mercedes-Benz', 'R-Class', 15971.10),
+   (238, 'Hummer', 'H2 SUT', 13941.49),
+   (239, 'Hyundai', 'Sonata', 19310.83),
+   (240, 'Lincoln', 'Mark LT', 14763.04),
+   (241, 'Subaru', 'Baja', 99195.27),
+   (242, 'Cadillac', 'SRX', 59133.08),
+   (243, 'Ford', 'Thunderbird', 81016.83),
+   (244, 'Saturn', 'S-Series', 29936.58),
+   (245, 'Volvo', '940', 58127.55),
+   (246, 'Ford', 'Mustang', 12506.70),
+   (247, 'BMW', '5 Series', 72114.86),
+   (248, 'Mitsubishi', 'Mighty Max', 69466.34),
+   (249, 'Volkswagen', 'Golf', 73161.00),
+   (250, 'GMC', 'Yukon', 56124.95),
+   (251, 'Audi', 'A4', 43871.68),
+   (252, 'Mercedes-Benz', '400SEL', 43332.46),
+   (253, 'Lincoln', 'Continental', 61066.75),
+   (254, 'Pontiac', '1000', 71760.56),
+   (255, 'Buick', 'Rainier', 27841.43),
+   (256, 'Chevrolet', 'Malibu', 39889.64),
+   (257, 'Honda', 'Accord', 68798.12),
+   (258, 'Ford', 'Mustang', 57846.34),
+   (259, 'Kia', 'Sephia', 42105.56),
+   (260, 'Chevrolet', 'Traverse', 97976.64),
+   (261, 'Plymouth', 'Laser', 14945.03),
+   (262, 'Volvo', 'V40', 86026.31),
+   (263, 'Subaru', 'Outback', 66561.88),
+   (264, 'Nissan', 'Altima', 89731.92),
+   (265, 'Cadillac', 'CTS', 71758.46),
+   (266, 'Land Rover', 'Range Rover', 63610.00),
+   (267, 'Volvo', 'S40', 77150.27),
+   (268, 'Suzuki', 'Aerio', 72399.21),
+   (269, 'Mercedes-Benz', '500SEC', 11516.39),
+   (270, 'Toyota', 'Matrix', 68147.11),
+   (271, 'Volvo', 'S40', 56692.10),
+   (272, 'Toyota', 'Celica', 22984.08),
+   (273, 'Volkswagen', 'Passat', 36834.68),
+   (274, 'Mitsubishi', 'Endeavor', 71147.89),
+   (275, 'Audi', 'TT', 66735.17),
+   (276, 'Chrysler', 'Imperial', 10358.95),
+   (277, 'Chevrolet', 'Camaro', 15501.23),
+   (278, 'Ford', 'Econoline E250', 97716.68),
+   (279, 'MINI', 'Clubman', 81603.19),
+   (280, 'Suzuki', 'Grand Vitara', 53692.58),
+   (281, 'GMC', 'Suburban 1500', 75868.31),
+   (282, 'Mitsubishi', 'Diamante', 34905.28),
+   (283, 'Volkswagen', 'Fox', 86805.92),
+   (284, 'GMC', 'Yukon', 17619.57),
+   (285, 'Dodge', 'Stealth', 89324.00),
+   (286, 'Lotus', 'Elan', 27588.17),
+   (287, 'Nissan', 'Cube', 12870.75),
+   (288, 'Volkswagen', 'Touareg', 70536.26),
+   (289, 'Kia', 'Spectra', 36934.94),
+   (290, 'Honda', 'Passport', 65723.87),
+   (291, 'Ford', 'Escort', 75832.81),
+   (292, 'Acura', 'NSX', 77782.54),
+   (293, 'Lexus', 'RX Hybrid', 21603.63),
+   (294, 'Dodge', 'Ram Van 2500', 61533.84),
+   (295, 'Nissan', 'Quest', 13730.41),
+   (296, 'Volkswagen', 'GTI', 58204.82),
+   (297, 'Hyundai', 'Veracruz', 66649.53),
+   (298, 'Jaguar', 'XJ', 67299.97),
+   (299, 'Mercury', 'Tracer', 62589.90),
+   (300, 'GMC', 'Canyon', 16644.79),
+   (301, 'Porsche', '911', 76365.76),
+   (302, 'MINI', 'MINI', 23063.54),
+   (303, 'Mazda', 'MX-5', 82378.74),
+   (304, 'MINI', 'Clubman', 18046.70),
+   (305, 'Ford', 'E-Series', 35559.57),
+   (306, 'Ferrari', '430 Scuderia', 82527.86),
+   (307, 'Chrysler', 'Aspen', 53131.23),
+   (308, 'Chevrolet', 'Lumina', 20594.86),
+   (309, 'Ford', 'Thunderbird', 44163.84),
+   (310, 'Honda', 'Pilot', 63396.73),
+   (311, 'BMW', '7 Series', 98092.56),
+   (312, 'Honda', 'S2000', 68892.10),
+   (313, 'Dodge', 'Caravan', 54601.08),
+   (314, 'Infiniti', 'M', 13371.89),
+   (315, 'Jeep', 'Cherokee', 55921.91),
+   (316, 'Chevrolet', 'Express 3500', 42276.86),
+   (317, 'Suzuki', 'XL-7', 53715.88),
+   (318, 'Porsche', '928', 38611.53),
+   (319, 'Jaguar', 'X-Type', 54743.83),
+   (320, 'Ford', 'Ranger', 22902.32),
+   (321, 'Nissan', 'Quest', 47426.67),
+   (322, 'Hyundai', 'Elantra', 17390.45),
+   (323, 'Buick', 'LaCrosse', 58048.13),
+   (324, 'GMC', 'Savana 1500', 65407.24),
+   (325, 'Mercury', 'Cougar', 58583.83),
+   (326, 'MINI', 'Cooper', 57441.95),
+   (327, 'Lincoln', 'Town Car', 92971.60),
+   (328, 'Isuzu', 'Stylus', 27875.38),
+   (329, 'Mazda', 'RX-7', 23826.10),
+   (330, 'Chevrolet', 'Colorado', 67413.04),
+   (331, 'Hyundai', 'XG350', 41544.83),
+   (332, 'Infiniti', 'G', 24802.34),
+   (333, 'Jaguar', 'XJ Series', 25761.03),
+   (334, 'Kia', 'Sorento', 59075.82),
+   (335, 'Toyota', 'Celica', 23203.57),
+   (336, 'Maserati', 'Karif', 47261.85),
+   (337, 'Chevrolet', 'Sportvan G10', 33280.16),
+   (338, 'Mitsubishi', 'L300', 18278.27),
+   (339, 'Cadillac', 'Escalade ESV', 43056.35),
+   (340, 'Audi', 'S8', 69651.69),
+   (341, 'Ford', 'Mustang', 53568.09),
+   (342, 'Hyundai', 'XG350', 42601.25),
+   (343, 'Mazda', 'Miata MX-5', 98708.06),
+   (344, 'Volkswagen', 'Jetta', 83494.30),
+   (345, 'Toyota', 'Avalon', 88101.41),
+   (346, 'Lexus', 'LS', 52274.97),
+   (347, 'Volkswagen', 'Passat', 58498.44),
+   (348, 'Pontiac', 'Firebird Formula', 50676.80),
+   (349, 'Ford', 'Expedition', 22515.36),
+   (350, 'Mazda', 'MX-6', 52662.42),
+   (351, 'Chevrolet', 'Malibu', 74733.47),
+   (352, 'Jeep', 'Grand Cherokee', 45227.77),
+   (353, 'Suzuki', 'Sidekick', 43935.30),
+   (354, 'Jeep', 'Wrangler', 42266.92),
+   (355, 'Lexus', 'HS', 81934.86),
+   (356, 'Volvo', '940', 52279.07),
+   (357, 'Ford', 'Thunderbird', 21550.35),
+   (358, 'Mazda', 'CX-7', 74631.72),
+   (359, 'Cadillac', 'CTS-V', 78686.78),
+   (360, 'Dodge', 'Grand Caravan', 22534.10),
+   (361, 'Honda', 'Ridgeline', 83009.77),
+   (362, 'Audi', 'Q7', 29139.82),
+   (363, 'Buick', 'Coachbuilder', 69747.27),
+   (364, 'BMW', 'X3', 72594.94),
+   (365, 'Mitsubishi', 'Endeavor', 95171.90),
+   (366, 'Volkswagen', 'New Beetle', 83757.99),
+   (367, 'Dodge', 'Ram 3500', 97675.15),
+   (368, 'Chevrolet', 'Cavalier', 56422.41),
+   (369, 'Ford', 'Aerostar', 49860.72),
+   (370, 'Chevrolet', 'Silverado 2500', 46089.67),
+   (371, 'Honda', 'Civic', 74951.14),
+   (372, 'Ford', 'Flex', 57999.73),
+   (373, 'Subaru', 'Outback', 70419.47),
+   (374, 'Mazda', 'MX-3', 61746.87),
+   (375, 'Chevrolet', 'Express 1500', 48895.37),
+   (376, 'Toyota', 'FJ Cruiser', 73074.54),
+   (377, 'Chevrolet', 'Silverado', 73462.66),
+   (378, 'Infiniti', 'FX', 58942.58),
+   (379, 'Plymouth', 'Grand Voyager', 68160.29),
+   (380, 'Ford', 'Crown Victoria', 54998.17),
+   (381, 'Pontiac', 'Sunbird', 73933.58),
+   (382, 'Nissan', 'Sentra', 67235.63),
+   (383, 'Audi', 'A3', 65151.15),
+   (384, 'Chrysler', 'Sebring', 90293.03),
+   (385, 'Subaru', 'Legacy', 62163.59),
+   (386, 'Mercedes-Benz', '500SEL', 34106.43),
+   (387, 'Chrysler', 'Town & Country', 60482.70),
+   (388, 'Plymouth', 'Grand Voyager', 50484.47),
+   (389, 'Cadillac', 'Escalade', 60193.66),
+   (390, 'Hyundai', 'Azera', 91997.08),
+   (391, 'BMW', 'X5 M', 55758.75),
+   (392, 'Mitsubishi', 'Mirage', 48798.69),
+   (393, 'Chevrolet', 'Lumina', 19444.14),
+   (394, 'Suzuki', 'Swift', 15126.13),
+   (395, 'Hyundai', 'Sonata', 72609.66),
+   (396, 'Ford', 'E-350 Super Duty Van', 79776.42),
+   (397, 'Isuzu', 'Oasis', 28571.60),
+   (398, 'Lincoln', 'Town Car', 29601.77),
+   (399, 'Chevrolet', 'Suburban 1500', 75375.19),
+   (400, 'Plymouth', 'Neon', 58974.50),
+   (401, 'MINI', 'Cooper Clubman', 52025.53),
+   (402, 'Honda', 'Civic', 19717.94),
+   (403, 'Infiniti', 'QX', 47191.64),
+   (404, 'Dodge', 'Ram 1500', 21178.03),
+   (405, 'Volvo', 'XC70', 91361.86),
+   (406, 'Toyota', 'Celica', 24145.24),
+   (407, 'GMC', 'Yukon', 68713.49),
+   (408, 'Jeep', 'Cherokee', 71517.22),
+   (409, 'Ford', 'Crown Victoria', 15940.43),
+   (410, 'Lexus', 'IS', 50295.07),
+   (411, 'Lexus', 'ES', 15947.97),
+   (412, 'BMW', '7 Series', 52320.46),
+   (413, 'Toyota', 'Supra', 64161.18),
+   (414, 'Volkswagen', 'Beetle', 95898.99),
+   (415, 'Chevrolet', 'Express 2500', 16859.47),
+   (416, 'Chevrolet', 'Tahoe', 29205.34),
+   (417, 'Chevrolet', 'Express 1500', 41802.29),
+   (418, 'Dodge', 'Sprinter', 18996.41),
+   (419, 'Mazda', 'B-Series', 77788.38),
+   (420, 'Dodge', 'Dakota Club', 73419.91),
+   (421, 'Buick', 'LeSabre', 16053.46),
+   (422, 'Bentley', 'Brooklands', 29341.92),
+   (423, 'Volkswagen', 'Type 2', 17851.51),
+   (424, 'Acura', 'MDX', 71510.41),
+   (425, 'Ford', 'Focus ST', 24662.09),
+   (426, 'Mercury', 'Monterey', 84156.16),
+   (427, 'Chevrolet', 'Corvette', 38010.60),
+   (428, 'Dodge', 'Ram Van B150', 83832.52),
+   (429, 'Mazda', 'RX-8', 47042.81),
+   (430, 'Buick', 'Verano', 36062.62),
+   (431, 'Mazda', 'RX-8', 13536.93),
+   (432, 'Mitsubishi', 'Pajero', 82772.34),
+   (433, 'Dodge', 'Intrepid', 79222.69),
+   (434, 'Toyota', 'T100 Xtra', 78383.49),
+   (435, 'Chevrolet', 'G-Series G10', 61397.39),
+   (436, 'Mazda', 'Navajo', 86120.61),
+   (437, 'Volvo', 'C30', 50734.65),
+   (438, 'Pontiac', 'Montana', 40687.40),
+   (439, 'Porsche', 'Carrera GT', 51316.28),
+   (440, 'Honda', 'Prelude', 83003.83),
+   (441, 'GMC', 'Sierra 2500', 45209.20),
+   (442, 'Mitsubishi', 'Endeavor', 13392.08),
+   (443, 'Audi', 'TT', 80575.04),
+   (444, 'Mercedes-Benz', '600SEL', 62627.16),
+   (445, 'Jeep', 'Grand Cherokee', 24774.38),
+   (446, 'Mercedes-Benz', 'E-Class', 16972.47),
+   (447, 'Chevrolet', 'Express 3500', 73556.04),
+   (448, 'Mitsubishi', 'Galant', 86765.86),
+   (449, 'Mitsubishi', 'Lancer', 95879.75),
+   (450, 'Mazda', 'B-Series', 36251.40),
+   (451, 'Porsche', 'Boxster', 28678.26),
+   (452, 'Subaru', 'Justy', 89505.66),
+   (453, 'Infiniti', 'G', 88039.28),
+   (454, 'Mitsubishi', 'Galant', 27694.95),
+   (455, 'Ford', 'Aerostar', 91446.57),
+   (456, 'Maserati', 'Gran Sport', 12970.35),
+   (457, 'Dodge', 'Omni', 82470.95),
+   (458, 'Mercedes-Benz', 'C-Class', 97540.17),
+   (459, 'Mazda', 'MPV', 94687.11),
+   (460, 'Chevrolet', 'Silverado 2500', 82553.22),
+   (461, 'Nissan', 'Quest', 38922.30),
+   (462, 'Lincoln', 'Navigator', 16817.08),
+   (463, 'Pontiac', 'Bonneville', 33873.17),
+   (464, 'Ford', 'Escort', 43905.20),
+   (465, 'BMW', 'X5', 77592.98),
+   (466, 'Renault', 'Alliance', 89182.63),
+   (467, 'Aston Martin', 'DB9', 10769.47),
+   (468, 'Buick', 'Century', 92171.62),
+   (469, 'Pontiac', 'G3', 48129.97),
+   (470, 'Mitsubishi', 'Galant', 84853.34),
+   (471, 'Dodge', 'Stratus', 68574.73),
+   (472, 'Jaguar', 'XJ Series', 12670.90),
+   (473, 'Ford', 'Explorer Sport Trac', 73059.51),
+   (474, 'Ford', 'F-Series', 90152.90),
+   (475, 'Infiniti', 'G', 62702.08),
+   (476, 'Toyota', 'Avalon', 48193.24),
+   (477, 'Dodge', 'Nitro', 54220.13),
+   (478, 'Hyundai', 'Elantra', 80744.42),
+   (479, 'Pontiac', 'Firebird', 30113.74),
+   (480, 'Volkswagen', 'Golf', 12518.95),
+   (481, 'Mitsubishi', 'Galant', 49575.26),
+   (482, 'Audi', 'S6', 57880.59),
+   (483, 'Honda', 'Insight', 89880.61),
+   (484, 'Honda', 'Civic', 15715.22),
+   (485, 'Volvo', 'C70', 48897.18),
+   (486, 'Cadillac', 'Escalade', 20631.79),
+   (487, 'Pontiac', 'Bonneville', 63260.02),
+   (488, 'Mitsubishi', 'Expo', 81787.71),
+   (489, 'Volkswagen', 'Type 2', 65312.92),
+   (490, 'Buick', 'LaCrosse', 50343.43),
+   (491, 'Volkswagen', 'New Beetle', 74306.99),
+   (492, 'Nissan', 'Maxima', 29431.92),
+   (493, 'Chevrolet', 'Lumina', 26905.01),
+   (494, 'Ford', 'Escort', 49745.66),
+   (495, 'Toyota', 'Sienna', 14459.87),
+   (496, 'Maserati', '430', 52541.54),
+   (497, 'Plymouth', 'Sundance', 11316.73),
+   (498, 'Toyota', 'Matrix', 18245.12),
+   (499, 'Pontiac', 'Sunfire', 51276.98),
+   (500, 'Dodge', 'D350 Club', 58200.55),
+   (501, 'Nissan', '370Z', 31536.14),
+   (502, 'Ford', 'Explorer Sport', 28969.82),
+   (503, 'GMC', '3500', 11464.64),
+   (504, 'Ford', 'Taurus', 68653.18),
+   (505, 'Nissan', 'Frontier', 21858.60),
+   (506, 'Mazda', 'CX-7', 20523.09),
+   (507, 'Mazda', 'MX-5', 38987.42),
+   (508, 'Ford', 'Festiva', 65123.98),
+   (509, 'Nissan', '300ZX', 77300.70),
+   (510, 'Chevrolet', '2500', 37267.81),
+   (511, 'Suzuki', 'Swift', 54757.27),
+   (512, 'Pontiac', 'Firebird', 79262.21),
+   (513, 'Jeep', 'Cherokee', 81080.10),
+   (514, 'Lincoln', 'Zephyr', 36184.51),
+   (515, 'Chevrolet', 'Lumina', 19620.32),
+   (516, 'Acura', 'RSX', 55022.11),
+   (517, 'Lincoln', 'Continental', 64975.53),
+   (518, 'Dodge', 'Dakota', 96055.38),
+   (519, 'Cadillac', 'Eldorado', 76185.20),
+   (520, 'Acura', 'Integra', 16525.65),
+   (521, 'Aston Martin', 'V8 Vantage', 30233.57),
+   (522, 'Jeep', 'Comanche', 17868.02),
+   (523, 'Lincoln', 'Town Car', 67367.70),
+   (524, 'Ford', 'F350', 30649.28),
+   (525, 'BMW', 'X5 M', 29655.31),
+   (526, 'Cadillac', 'STS-V', 38471.99),
+   (527, 'Suzuki', 'Esteem', 14204.77),
+   (528, 'GMC', 'Sierra 3500', 67974.55),
+   (529, 'Honda', 'Civic', 88874.38),
+   (530, 'Volvo', 'V50', 35992.39),
+   (531, 'Volvo', 'V70', 84854.09),
+   (532, 'Mitsubishi', 'Lancer', 90342.67),
+   (533, 'Acura', 'TL', 52196.72),
+   (534, 'Plymouth', 'Colt', 75488.17),
+   (535, 'Audi', '5000CS', 30782.59),
+   (536, 'Ford', 'Mustang', 10637.04),
+   (537, 'Suzuki', 'Swift', 80117.12),
+   (538, 'Audi', 'A7', 13354.79),
+   (539, 'Lotus', 'Evora', 73234.08),
+   (540, 'Dodge', 'Ram Van 1500', 73961.14),
+   (541, 'Ford', 'Expedition', 43670.35),
+   (542, 'Saab', '9-5', 26556.21),
+   (543, 'Mercedes-Benz', '600SEL', 76927.53),
+   (544, 'GMC', '2500 Club Coupe', 72197.27),
+   (545, 'BMW', 'Z4 M', 80824.88),
+   (546, 'Lexus', 'LX', 84033.75),
+   (547, 'Buick', 'LaCrosse', 88493.18),
+   (548, 'Mitsubishi', 'Diamante', 81903.57),
+   (549, 'Infiniti', 'G', 10098.09),
+   (550, 'Infiniti', 'M', 83229.16),
+   (551, 'Nissan', 'Maxima', 67503.22),
+   (552, 'Lincoln', 'Navigator', 26391.67),
+   (553, 'Ford', 'Thunderbird', 44612.22),
+   (554, 'Dodge', 'Nitro', 82942.13),
+   (555, 'Chevrolet', 'Corvette', 70030.78),
+   (556, 'Nissan', 'Rogue', 63130.22),
+   (557, 'Chevrolet', 'Blazer', 13048.37),
+   (558, 'Volkswagen', 'Passat', 71559.82),
+   (559, 'Volkswagen', 'Passat', 65552.43),
+   (560, 'Hummer', 'H1', 16578.04),
+   (561, 'Toyota', 'T100', 58662.50),
+   (562, 'Honda', 'Pilot', 84769.75),
+   (563, 'Mercedes-Benz', 'S-Class', 32783.62),
+   (564, 'Ford', 'Econoline E250', 85757.97),
+   (565, 'Dodge', 'Ram 1500 Club', 67160.60),
+   (566, 'GMC', '1500 Club Coupe', 46723.66),
+   (567, 'Ford', 'F-Series', 84541.14),
+   (568, 'Chevrolet', 'TrailBlazer', 15246.39),
+   (569, 'Mercury', 'Topaz', 86003.06),
+   (570, 'Dodge', 'Charger', 37008.48),
+   (571, 'Honda', 'Accord', 23885.30),
+   (572, 'Toyota', 'TundraMax', 65483.60),
+   (573, 'Infiniti', 'QX', 11650.70),
+   (574, 'Toyota', 'Camry', 88677.14),
+   (575, 'Audi', 'A8', 53882.06),
+   (576, 'Eagle', 'Vision', 16014.12),
+   (577, 'Honda', 'Prelude', 32162.38),
+   (578, 'Infiniti', 'G37', 30812.48),
+   (579, 'Infiniti', 'I', 39871.92),
+   (580, 'Volkswagen', 'New Beetle', 55095.45),
+   (581, 'GMC', 'Sierra 2500', 26710.11),
+   (582, 'Ford', 'Ranger', 55968.16),
+   (583, 'Dodge', 'Dakota', 76868.28),
+   (584, 'Chevrolet', '3500', 99791.92),
+   (585, 'Honda', 'Prelude', 59881.08),
+   (586, 'Mercedes-Benz', 'S-Class', 22597.53),
+   (587, 'Chevrolet', 'Cavalier', 82601.01),
+   (588, 'Saab', '9000', 83378.76),
+   (589, 'Honda', 'CR-V', 14735.68),
+   (590, 'Buick', 'Regal', 19601.42),
+   (591, 'Acura', 'Integra', 80336.06),
+   (592, 'Honda', 'Accord', 95124.41),
+   (593, 'Mazda', 'MX-5', 37176.63),
+   (594, 'Subaru', 'Legacy', 86369.41),
+   (595, 'Audi', 'A3', 85159.26),
+   (596, 'Chevrolet', 'Malibu', 14158.85),
+   (597, 'Ford', 'Windstar', 43445.12),
+   (598, 'Hyundai', 'Sonata', 33723.22),
+   (599, 'Buick', 'Electra', 55217.90),
+   (600, 'Pontiac', 'LeMans', 65846.45),
+   (601, 'Dodge', 'Neon', 30229.68),
+   (602, 'Toyota', 'Corolla', 73156.30),
+   (603, 'Lexus', 'LFA', 97128.51),
+   (604, 'Porsche', 'Cayenne', 67859.51),
+   (605, 'GMC', 'Yukon XL 2500', 93328.92),
+   (606, 'Mitsubishi', 'Chariot', 22406.75),
+   (607, 'Infiniti', 'M', 40904.16),
+   (608, 'Toyota', 'Celica', 16496.68),
+   (609, 'Dodge', 'Ram 1500 Club', 39766.76),
+   (610, 'Lotus', 'Esprit', 61542.20),
+   (611, 'Acura', 'CL', 52370.70),
+   (612, 'Volkswagen', 'Jetta', 34704.27),
+   (613, 'Mitsubishi', 'Challenger', 80746.71),
+   (614, 'GMC', 'Suburban 1500', 58117.00),
+   (615, 'Nissan', 'Sentra', 39456.15),
+   (616, 'Volvo', 'XC70', 65738.19),
+   (617, 'Buick', 'Regal', 63506.18),
+   (618, 'Mercedes-Benz', 'E-Class', 38811.55),
+   (619, 'Honda', 'Odyssey', 66675.56),
+   (620, 'Ferrari', 'F430', 11986.15),
+   (621, 'Toyota', '4Runner', 94911.27),
+   (622, 'Mercury', 'Milan', 96481.67),
+   (623, 'Mazda', 'MX-3', 72431.18),
+   (624, 'Chevrolet', 'Aveo', 12990.88),
+   (625, 'Mazda', '626', 40355.27),
+   (626, 'BMW', 'M5', 84974.05),
+   (627, 'Mercedes-Benz', 'W123', 87515.66),
+   (628, 'Chevrolet', 'HHR', 76802.44),
+   (629, 'Suzuki', 'Swift', 57239.40),
+   (630, 'Lincoln', 'MKS', 46488.45),
+   (631, 'Buick', 'LeSabre', 46706.95),
+   (632, 'Mazda', 'Miata MX-5', 41290.25),
+   (633, 'GMC', 'Yukon', 96001.39),
+   (634, 'Mitsubishi', 'Montero', 28059.93),
+   (635, 'Porsche', 'Cayenne', 41607.55),
+   (636, 'BMW', '760', 29429.17),
+   (637, 'Chrysler', 'Crossfire', 21172.94),
+   (638, 'Chevrolet', 'Avalanche 1500', 79805.18),
+   (639, 'Chevrolet', '2500', 83785.82),
+   (640, 'Jeep', 'Liberty', 26561.57),
+   (641, 'Acura', 'RL', 50605.19),
+   (642, 'Pontiac', 'Firefly', 82794.05),
+   (643, 'Toyota', 'Prius', 64097.41),
+   (644, 'Subaru', 'Justy', 21979.58),
+   (645, 'Ferrari', '458 Italia', 49807.87),
+   (646, 'Mercury', 'Grand Marquis', 67408.38),
+   (647, 'Nissan', 'Maxima', 19460.58),
+   (648, 'Chevrolet', 'Monte Carlo', 39392.11),
+   (649, 'Audi', '80', 40164.44),
+   (650, 'Ford', 'Ranger', 89004.03),
+   (651, 'Dodge', 'Dakota Club', 91291.13),
+   (652, 'Ford', 'F-Series', 39027.68),
+   (653, 'Dodge', 'Ram 3500', 90693.07),
+   (654, 'Isuzu', 'i-Series', 82553.93),
+   (655, 'Mercedes-Benz', 'E-Class', 30585.12),
+   (656, 'Lexus', 'LS', 25972.81),
+   (657, 'Ferrari', '430 Scuderia', 47827.43),
+   (658, 'Land Rover', 'Range Rover', 81968.26),
+   (659, 'Chevrolet', 'Venture', 17090.32),
+   (660, 'BMW', '760', 13632.79),
+   (661, 'Nissan', 'Quest', 30332.75),
+   (662, 'Acura', 'Integra', 58829.08),
+   (663, 'Porsche', 'Cayenne', 41513.93),
+   (664, 'GMC', 'Savana 3500', 93729.13),
+   (665, 'Infiniti', 'FX', 11314.42),
+   (666, 'Lexus', 'IS', 18567.90),
+   (667, 'Chevrolet', 'TrailBlazer', 23931.52),
+   (668, 'Volkswagen', 'Routan', 46651.27),
+   (669, 'Mercury', 'Milan', 24244.61),
+   (670, 'BMW', 'M5', 14645.16),
+   (671, 'Volkswagen', 'Cabriolet', 80598.44),
+   (672, 'Mazda', 'Mazda5', 12592.80),
+   (673, 'Honda', 'Prelude', 33943.92),
+   (674, 'GMC', 'Savana 1500', 39863.06),
+   (675, 'Infiniti', 'Q', 40003.33),
+   (676, 'Volkswagen', 'Passat', 21836.09),
+   (677, 'Audi', 'A8', 27307.13),
+   (678, 'Pontiac', 'Chevette', 17336.40),
+   (679, 'Saab', '9-3', 33221.86),
+   (680, 'Oldsmobile', 'Aurora', 16871.52),
+   (681, 'Suzuki', 'XL7', 73080.96),
+   (682, 'Suzuki', 'XL-7', 72392.90),
+   (683, 'Cadillac', 'Seville', 34422.47),
+   (684, 'Saturn', 'Ion', 86142.96),
+   (685, 'BMW', '8 Series', 45428.72),
+   (686, 'Porsche', 'Panamera', 55855.04),
+   (687, 'Lincoln', 'Continental Mark VII', 34907.52),
+   (688, 'Mazda', '626', 73976.36),
+   (689, 'Toyota', 'Camry', 41127.95),
+   (690, 'Chevrolet', 'G-Series 1500', 36379.36),
+   (691, 'Volkswagen', 'GTI', 71828.30),
+   (692, 'Mercedes-Benz', '300CE', 47469.43),
+   (693, 'Toyota', 'Highlander', 70693.33),
+   (694, 'Suzuki', 'SJ', 89956.93),
+   (695, 'Oldsmobile', 'Bravada', 44019.73),
+   (696, 'Pontiac', '6000', 53951.45),
+   (697, 'Mazda', 'Tribute', 95006.72),
+   (698, 'Mitsubishi', 'Montero', 29327.52),
+   (699, 'Audi', 'A4', 95912.94),
+   (700, 'Honda', 'Pilot', 84113.51),
+   (701, 'Mazda', 'B-Series', 90065.00),
+   (702, 'Mazda', 'RX-7', 45607.73),
+   (703, 'Ford', 'LTD', 77606.43),
+   (704, 'Ford', 'Probe', 74869.03),
+   (705, 'Volvo', 'C70', 36910.64),
+   (706, 'Cadillac', 'DeVille', 75804.12),
+   (707, 'Ford', 'E250', 28392.26),
+   (708, 'Ford', 'Econoline E150', 70842.68),
+   (709, 'Suzuki', 'SJ', 46353.14),
+   (710, 'Mercedes-Benz', 'CLS-Class', 92217.47),
+   (711, 'Infiniti', 'QX', 51985.18),
+   (712, 'Hyundai', 'Equus', 75180.34),
+   (713, 'Mazda', '626', 69774.55),
+   (714, 'Oldsmobile', '98', 48091.55),
+   (715, 'Dodge', 'Viper', 39305.66),
+   (716, 'Volkswagen', 'GTI', 44618.45),
+   (717, 'Maybach', '57', 48551.35),
+   (718, 'Mazda', 'MX-5', 87275.90),
+   (719, 'Mitsubishi', 'Pajero', 17931.05),
+   (720, 'Ford', 'EXP', 14810.58),
+   (721, 'Buick', 'Rainier', 43943.46),
+   (722, 'Audi', 'A5', 60221.27),
+   (723, 'Dodge', 'Caravan', 32624.68),
+   (724, 'Dodge', 'Caravan', 70201.72),
+   (725, 'Chevrolet', 'Corvette', 84694.52),
+   (726, 'Ram', '2500', 81163.59),
+   (727, 'Subaru', 'Leone', 16779.50),
+   (728, 'Mercury', 'Monterey', 86585.06),
+   (729, 'Acura', 'TL', 78647.19),
+   (730, 'Mazda', 'B-Series Plus', 15225.75),
+   (731, 'Infiniti', 'EX', 89105.15),
+   (732, 'BMW', 'X5', 30953.51),
+   (733, 'Pontiac', 'Solstice', 81406.42),
+   (734, 'Aston Martin', 'Vantage', 16036.49),
+   (735, 'Mercury', 'Sable', 60384.59),
+   (736, 'Hyundai', 'Sonata', 17199.97),
+   (737, 'Chevrolet', 'Express 3500', 45720.09),
+   (738, 'Toyota', 'Corolla', 73388.69),
+   (739, 'Volvo', 'C70', 19115.18),
+   (740, 'Ford', 'Ranger', 14167.85),
+   (741, 'Cadillac', 'CTS', 65976.18),
+   (742, 'Acura', 'TL', 49681.52),
+   (743, 'Volkswagen', 'Passat', 81357.71),
+   (744, 'Mitsubishi', 'Montero', 92814.75),
+   (745, 'Nissan', 'Maxima', 81702.88),
+   (746, 'Hummer', 'H1', 47348.65),
+   (747, 'Dodge', 'D150 Club', 44940.57),
+   (748, 'Lexus', 'RX', 13706.40),
+   (749, 'Infiniti', 'G25', 58878.21),
+   (750, 'BMW', 'M6', 10471.52),
+   (751, 'Scion', 'xD', 61509.76),
+   (752, 'Dodge', 'Caravan', 66759.63),
+   (753, 'Toyota', 'Prius Plug-in Hybrid', 83710.52),
+   (754, 'Ford', 'Escape', 80895.45),
+   (755, 'Dodge', 'Dakota', 48747.89),
+   (756, 'Lexus', 'LS', 37246.41),
+   (757, 'Infiniti', 'Q', 22042.72),
+   (758, 'Scion', 'tC', 15330.09),
+   (759, 'Nissan', '240SX', 28306.61),
+   (760, 'Land Rover', 'LR2', 89465.45),
+   (761, 'Plymouth', 'Voyager', 81873.80),
+   (762, 'Chevrolet', 'Monte Carlo', 37680.20),
+   (763, 'Citroën', 'CX', 60523.14),
+   (764, 'Mitsubishi', 'Challenger', 44252.12),
+   (765, 'Chevrolet', 'Astro', 59345.47),
+   (766, 'Land Rover', 'Discovery', 36925.72),
+   (767, 'Dodge', 'Spirit', 37322.12),
+   (768, 'Chevrolet', 'Tracker', 55192.02),
+   (769, 'Land Rover', 'Range Rover', 91155.41),
+   (770, 'Land Rover', 'Range Rover', 46993.47),
+   (771, 'GMC', 'Sierra 2500', 24909.53),
+   (772, 'BMW', '750', 69329.23),
+   (773, 'GMC', 'Vandura G3500', 76719.48),
+   (774, 'Dodge', 'Avenger', 34191.16),
+   (775, 'Mazda', 'CX-7', 78584.06),
+   (776, 'Pontiac', 'Grand Am', 44250.40),
+   (777, 'Volkswagen', 'GLI', 29599.99),
+   (778, 'GMC', 'Sierra 3500', 39973.60),
+   (779, 'Hyundai', 'Genesis Coupe', 63157.28),
+   (780, 'Land Rover', 'Defender 90', 72778.14),
+   (781, 'Ford', 'Econoline E250', 20704.65),
+   (782, 'Maserati', 'Quattroporte', 45516.38),
+   (783, 'Pontiac', 'GTO', 74073.77),
+   (784, 'Pontiac', 'Firebird', 83687.56),
+   (785, 'GMC', 'Yukon XL 1500', 31335.18),
+   (786, 'Mercury', 'Cougar', 38358.30),
+   (787, 'Mercedes-Benz', 'E-Class', 13936.26),
+   (788, 'Mercedes-Benz', 'CLK-Class', 53197.56),
+   (789, 'Ford', 'Edge', 47639.82),
+   (790, 'Porsche', '928', 41139.72),
+   (791, 'Maserati', 'GranTurismo', 81218.52),
+   (792, 'Volkswagen', 'GTI', 15009.64),
+   (793, 'Toyota', 'Solara', 12147.99),
+   (794, 'Mercury', 'Mariner', 56150.40),
+   (795, 'Mercedes-Benz', 'CL-Class', 88096.67),
+   (796, 'Mercedes-Benz', 'GL-Class', 55606.88),
+   (797, 'Hyundai', 'Elantra', 56852.13),
+   (798, 'Lincoln', 'Mark VIII', 69599.52),
+   (799, 'Dodge', 'Ram 1500', 69136.42),
+   (800, 'Lincoln', 'Navigator L', 99217.05),
+   (801, 'Mitsubishi', 'Montero Sport', 20358.92),
+   (802, 'Dodge', 'Avenger', 77006.13),
+   (803, 'Saab', '9-3', 26932.20),
+   (804, 'Jaguar', 'XF', 84795.99),
+   (805, 'Buick', 'Electra', 27242.49),
+   (806, 'Toyota', 'TundraMax', 15405.13),
+   (807, 'Pontiac', 'Daewoo Kalos', 40500.70),
+   (808, 'Suzuki', 'XL-7', 39443.48),
+   (809, 'BMW', '6 Series', 79994.97),
+   (810, 'Ford', 'Torino', 53915.54),
+   (811, 'Rolls-Royce', 'Ghost', 19627.14),
+   (812, 'Mercedes-Benz', 'G-Class', 99815.20),
+   (813, 'Mercedes-Benz', 'E-Class', 28540.80),
+   (814, 'Ford', 'Bronco', 31424.58),
+   (815, 'Lotus', 'Exige', 33530.04),
+   (816, 'Toyota', 'Sequoia', 33382.43),
+   (817, 'Ford', 'Focus', 26115.79),
+   (818, 'Dodge', 'Ram 1500', 67693.91),
+   (819, 'Hummer', 'H3', 54415.97),
+   (820, 'Land Rover', 'LR2', 41178.48),
+   (821, 'Dodge', 'Ram Van 2500', 23451.06),
+   (822, 'Nissan', 'Maxima', 90813.34),
+   (823, 'Jeep', 'Patriot', 70607.94),
+   (824, 'Saturn', 'Relay', 77384.12),
+   (825, 'GMC', 'Savana 1500', 66306.01),
+   (826, 'Mercedes-Benz', 'CLK-Class', 32446.20),
+   (827, 'Ford', 'Explorer', 89169.03),
+   (828, 'Ford', 'Club Wagon', 40475.59),
+   (829, 'Mercury', 'Montego', 68933.21),
+   (830, 'Chevrolet', 'Suburban 2500', 50277.24),
+   (831, 'Dodge', 'Viper', 41393.98),
+   (832, 'Ford', 'Focus', 82430.99),
+   (833, 'Nissan', 'Sentra', 62275.10),
+   (834, 'Toyota', '4Runner', 21389.38),
+   (835, 'Chevrolet', 'Express 2500', 51828.64),
+   (836, 'Audi', 'S4', 15293.26),
+   (837, 'Toyota', 'Camry', 73176.60),
+   (838, 'BMW', 'M5', 49418.28),
+   (839, 'GMC', 'Canyon', 76421.85),
+   (840, 'Mitsubishi', 'Galant', 21229.18),
+   (841, 'Land Rover', 'Range Rover', 14010.54),
+   (842, 'Hyundai', 'Sonata', 44595.45),
+   (843, 'Chevrolet', 'Sportvan G30', 96600.14),
+   (844, 'Honda', 'Civic', 27226.39),
+   (845, 'GMC', '3500', 11165.07),
+   (846, 'Buick', 'LeSabre', 77322.09),
+   (847, 'Volkswagen', 'Passat', 78708.34),
+   (848, 'Pontiac', 'Grand Am', 14541.22),
+   (849, 'Chevrolet', '3500', 95345.72),
+   (850, 'Mazda', 'Mazda3', 49222.24),
+   (851, 'Lincoln', 'MKX', 42825.07),
+   (852, 'Chevrolet', 'Silverado 1500', 82759.11),
+   (853, 'Ram', '1500', 52811.34),
+   (854, 'Jeep', 'Patriot', 85962.96),
+   (855, 'Toyota', 'T100', 74479.24),
+   (856, 'Chevrolet', 'Corvette', 35042.04),
+   (857, 'GMC', '3500 Club Coupe', 60365.93),
+   (858, 'Porsche', '968', 50815.45),
+   (859, 'GMC', 'Vandura G3500', 14125.15),
+   (860, 'Toyota', 'Echo', 26340.29),
+   (861, 'Cadillac', 'DeVille', 14681.03),
+   (862, 'Aston Martin', 'DB9', 88060.25),
+   (863, 'Nissan', 'Quest', 56090.91),
+   (864, 'Acura', 'Integra', 95761.20),
+   (865, 'Kia', 'Sorento', 13787.29),
+   (866, 'Toyota', 'Tacoma Xtra', 53099.40),
+   (867, 'Oldsmobile', 'Ciera', 42041.64),
+   (868, 'Honda', 'Accord', 28779.10),
+   (869, 'Mitsubishi', 'Truck', 62265.77),
+   (870, 'Lexus', 'HS', 61129.31),
+   (871, 'GMC', 'Suburban 1500', 73249.39),
+   (872, 'Volkswagen', 'Passat', 98790.97),
+   (873, 'Kia', 'Sportage', 17106.77),
+   (874, 'Mitsubishi', 'Galant', 30628.41),
+   (875, 'Chevrolet', 'Impala', 52873.39),
+   (876, 'Volvo', 'XC60', 32966.53),
+   (877, 'Pontiac', 'GTO', 98857.30),
+   (878, 'Oldsmobile', 'Custom Cruiser', 45502.35),
+   (879, 'Volkswagen', 'Routan', 98099.73),
+   (880, 'Chevrolet', '2500', 71335.86),
+   (881, 'Ford', 'Tempo', 57819.51),
+   (882, 'Buick', 'Century', 95162.68),
+   (883, 'GMC', 'Sierra 1500', 87632.43),
+   (884, 'Chevrolet', 'Tahoe', 41672.60),
+   (885, 'Pontiac', 'Sunbird', 17152.25),
+   (886, 'Toyota', 'Prius Plug-in', 41750.53),
+   (887, 'Ford', 'EXP', 19183.18),
+   (888, 'Pontiac', 'Bonneville', 52068.27),
+   (889, 'GMC', '2500', 29406.03),
+   (890, 'Audi', '5000CS', 21916.88),
+   (891, 'Chrysler', 'PT Cruiser', 72869.32),
+   (892, 'Ford', 'Econoline E250', 92397.62),
+   (893, 'Chrysler', '300', 44464.52),
+   (894, 'Volvo', 'V70', 99363.05),
+   (895, 'Volkswagen', 'Tiguan', 10835.17),
+   (896, 'Subaru', 'Alcyone SVX', 20196.73),
+   (897, 'Acura', 'TL', 80488.23),
+   (898, 'Rolls-Royce', 'Phantom', 17436.67),
+   (899, 'GMC', 'Canyon', 11606.63),
+   (900, 'Toyota', 'Sequoia', 83549.09),
+   (901, 'Toyota', 'MR2', 33991.90),
+   (902, 'Mitsubishi', 'Lancer Evolution', 73532.94),
+   (903, 'Cadillac', 'CTS-V', 46196.86),
+   (904, 'Toyota', 'Corolla', 21837.56),
+   (905, 'Honda', 'Prelude', 76807.21),
+   (906, 'Mercury', 'Cougar', 12424.74),
+   (907, 'Ford', 'Club Wagon', 60429.06),
+   (908, 'Suzuki', 'XL-7', 86332.16),
+   (909, 'Pontiac', 'Montana', 94515.46),
+   (910, 'Pontiac', 'Bonneville', 67342.58),
+   (911, 'Chevrolet', 'Impala', 18956.38),
+   (912, 'Infiniti', 'J', 83048.43),
+   (913, 'Buick', 'Skyhawk', 30634.94),
+   (914, 'Hyundai', 'Azera', 80877.17),
+   (915, 'Volvo', 'XC60', 67514.28),
+   (916, 'Toyota', 'Matrix', 44807.57),
+   (917, 'Porsche', '911', 51750.68),
+   (918, 'Ferrari', '612 Scaglietti', 83256.19),
+   (919, 'MINI', 'Clubman', 95537.69),
+   (920, 'Porsche', 'Boxster', 31711.93),
+   (921, 'Honda', 'Element', 64847.12),
+   (922, 'Volvo', 'S60', 37660.63),
+   (923, 'Mazda', '626', 96638.89),
+   (924, 'Oldsmobile', 'Cutlass', 20153.51),
+   (925, 'Suzuki', 'Sidekick', 46817.08),
+   (926, 'Chevrolet', 'Suburban 1500', 67767.33),
+   (927, 'Ford', 'E150', 63923.04),
+   (928, 'Volkswagen', 'Touareg', 47786.81),
+   (929, 'Dodge', 'Ram 3500', 89233.52),
+   (930, 'Honda', 'Odyssey', 27521.25),
+   (931, 'Suzuki', 'Grand Vitara', 46746.22),
+   (932, 'Mercury', 'Grand Marquis', 29220.31),
+   (933, 'Hyundai', 'XG350', 83823.34),
+   (934, 'GMC', '3500', 27917.97),
+   (935, 'Dodge', 'Ram Wagon B250', 74782.26),
+   (936, 'Saturn', 'Aura', 56248.37),
+   (937, 'Mitsubishi', '3000GT', 55415.74),
+   (938, 'GMC', 'Envoy XUV', 23307.75),
+   (939, 'Volkswagen', 'GTI', 45874.92),
+   (940, 'Volkswagen', 'Fox', 99165.24),
+   (941, 'Cadillac', 'Escalade', 49009.34),
+   (942, 'Audi', 'A6', 34188.46),
+   (943, 'Subaru', 'Alcyone SVX', 60451.30),
+   (944, 'Jeep', 'Grand Cherokee', 72653.88),
+   (945, 'Chevrolet', 'Corvette', 33513.43),
+   (946, 'Audi', 'TT', 20434.92),
+   (947, 'Isuzu', 'Rodeo', 68279.13),
+   (948, 'Toyota', 'Land Cruiser', 71642.00),
+   (949, 'Lincoln', 'Continental', 34536.00),
+   (950, 'Mitsubishi', 'Pajero', 26603.26),
+   (951, 'Dodge', 'Grand Caravan', 51537.98),
+   (952, 'Chevrolet', 'Beretta', 11514.68),
+   (953, 'Mitsubishi', 'Galant', 92229.26),
+   (954, 'Nissan', 'Frontier', 97485.97),
+   (955, 'Plymouth', 'Voyager', 11341.86),
+   (956, 'Land Rover', 'Defender', 57739.52),
+   (957, 'BMW', 'X5', 88461.33),
+   (958, 'Pontiac', 'Firebird', 27780.85),
+   (959, 'Ford', 'Crown Victoria', 38941.15),
+   (960, 'Holden', 'Monaro', 74952.99),
+   (961, 'Volkswagen', 'Jetta', 28337.54),
+   (962, 'Dodge', 'Viper', 90022.01),
+   (963, 'Audi', 'A4', 34192.26),
+   (964, 'Buick', 'Skylark', 71569.76),
+   (965, 'Ford', 'F-350 Super Duty', 83390.19),
+   (966, 'Mazda', '626', 44340.60),
+   (967, 'Mazda', '929', 86276.93),
+   (968, 'Chevrolet', 'LUV', 45568.13),
+   (969, 'Mitsubishi', 'Mighty Max', 60898.23),
+   (970, 'GMC', 'Sierra 1500', 19037.65),
+   (971, 'Mercedes-Benz', 'CL-Class', 88595.58),
+   (972, 'BMW', '5 Series', 17873.18),
+   (973, 'Toyota', 'Paseo', 38658.63),
+   (974, 'Mitsubishi', 'Lancer', 92545.06),
+   (975, 'Ford', 'Aerostar', 56213.26),
+   (976, 'Ram', '1500', 25788.14),
+   (977, 'Dodge', 'Ram 1500', 83392.55),
+   (978, 'Mercury', 'Milan', 98126.95),
+   (979, 'Porsche', '911', 22719.29),
+   (980, 'Geo', 'Tracker', 74287.31),
+   (981, 'Acura', 'RDX', 89380.22),
+   (982, 'GMC', '3500 Club Coupe', 27998.12),
+   (983, 'Suzuki', 'Vitara', 24973.77),
+   (984, 'Acura', 'ZDX', 69520.44),
+   (985, 'Nissan', 'Pathfinder', 87742.18),
+   (986, 'Mercury', 'Marquis', 70254.31),
+   (987, 'Lincoln', 'Town Car', 72002.56),
+   (988, 'Toyota', 'Tacoma', 46302.68),
+   (989, 'GMC', 'Yukon XL 1500', 63518.70),
+   (990, 'Mercedes-Benz', 'C-Class', 25549.83),
+   (991, 'Pontiac', 'Firefly', 57212.51),
+   (992, 'Lexus', 'LS', 59901.13),
+   (993, 'Mercury', 'Cougar', 45452.67),
+   (994, 'Austin', 'Mini', 66378.28),
+   (995, 'Volkswagen', 'GTI', 89874.02),
+   (996, 'Morgan', 'Aero 8', 92759.38),
+   (997, 'Mazda', 'CX-5', 89735.67),
+   (998, 'Mitsubishi', 'GTO', 82959.97),
+   (999, 'Ford', 'Thunderbird', 46541.19),
+   (1000, 'Toyota', 'FJ Cruiser', 13031.50);
