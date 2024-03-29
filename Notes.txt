@@ -87,6 +87,22 @@
        
        > Example: Ensuring that a table of student information is in BCNF by removing any non-trivial functional dependencies.   
 
+>>> Denormalization
+
+    -> Denormalization is the process of intentionally adding redundancy to one or more tables in a database to improve query
+       performance or simplify data retrieval.
+    -> It involves combining tables and columns to reduce the number of joins needed to retrieve data.
+
+   >> Benefits of Denormalization: 
+           > Improved Query Performance: Reduces the need for joins, leading to faster query execution.
+           > Simplified Data Retrieval: Makes data retrieval more straightforward and efficient.
+           > Aggregated Data: Allows for pre-aggregation of data for reporting and analysis purposes.
+   
+   >> Use Cases for Denormalization :
+           > Reporting and Analytics
+           > Read-Heavy Applications 
+           > Caching 
+
 >>> Constraint 
 
   >> Constraint are rules defined on a database table that enforce data integrity and consistency by specifying limits 
@@ -140,8 +156,12 @@
        
        > FULL JOIN (or FULL OUTER JOIN): Returns rows when there is a match in either the left or right table.
                                          It combines the results of both LEFT JOIN and RIGHT JOIN.
+       
+       > SELF JOIN : Used to join a table to itself.
+                     This is often used when you want to compare rows within the same table.
 
-       > CROSS JOIN: Returns the Cartesian product of the two tables, i.e., all possible combinations of rows from the tables.
+       > CROSS JOIN: Combine each row from the first table with every row from the second table .
+                     Returns the Cartesian product of the two tables, i.e., all possible combinations of rows from the tables.
        
 >>> 3-Schema Architecture
   
@@ -264,6 +284,7 @@
 
 >>> Closure Table:
   
+  >> Represent hierarchical or tree-like data structures efficiently
   >> A closure table is a separate table that maintains the transitive closure of the parent-child relationships in the base table.
      It contains fields for "parent", "child", and "depth", allowing representation of the hierarchy to any depth present in the data.
 
@@ -310,23 +331,87 @@
    -> Common DCL commands include GRANT and REVOKE.
    -> These commands are used to grant or revoke permissions and privileges to users and roles.
 
+>>> Sequelize 
+
+   -> Sequelize is a Node.js-based Object Relational Mapper (ORM) that supports various SQL databases such as 
+      MySQL, MariaDB, SQLite, PostgreSQL, and more.
+   
+   -> It provides an easy way to work with these databases by representing data as objects and handling database records.
+
+>>> Subquery (nested query)
+  
+   -> Query nested inside another query.
+   -> Subqueries can be used in various parts of a SQL statement, such as the SELECT, INSERT, UPDATE, or DELETE statements,
+      or even inside another subquery.
+   -> They are particularly useful when you need to perform operations in multiple steps or compare an expression to the 
+      result of a query.
+
+  >> Types of Subquery 
+
+   -> Single Row Subquery: Returns a single row as output to the parent query.  
+             Eg: SELECT column_name FROM table_name WHERE value = (SELECT column_name FROM table_name WHERE condition);
+
+   -> Multiple Row Subquery: Returns multiple rows as output to the parent query.
+             Eg: SELECT column_name FROM table_name WHERE value IN (SELECT column_name FROM table_name WHERE condition);
+
+   -> Multiple Column Subquery: Returns multiple columns as output to the parent query.
+             Eg: SELECT column1, column2 FROM table_name WHERE (value1, value2) IN (SELECT column1, column2 FROM table_name WHERE condition);
+   
+   -> Correlated Subquery: A subquery that is dependent on the outer query.
+             Eg: SELECT column_name FROM table_name t1 WHERE value > (SELECT AVG(column_name) FROM table_name t2 WHERE t1.id = t2.id);
+
+   -> Nested Subquery: Subqueries that are inside another subquery.
+             Eg: SELECT column_name FROM table_name WHERE value = (SELECT AVG(column_name) FROM (SELECT * FROM table_name) AS subquery);
+
+
+>>> MINUS operator 
+  
+  -> Used to subtract the result set of one query from the result set of another query.
+     It is similar to the EXCEPT operator in some database systems.
+             Eg: Suppose we have two tables, table1 and table2, with the same columns.
+                 We want to find the records that exist in table1 but do not exist in table2. 
+
+>>> Difference between TRUNCATAE ,DELETE and DROP
+  
+  >> TRUNCATAE
+   -> Type: DDL (Data Definition Language) command.
+   -> Function: Removes all rows from a table, effectively resetting the table to its original state.
+  
+  >> DELETE
+    -> Type: DML (Data Manipulation Language) command.
+    -> Function: Removes one or more rows from a table based on specified conditions.
+
+  >> DROP 
+    -> Type: DDL (Data Definition Language) command.
+    -> Function: Deletes the entire table from the database, including all data and the table structure.
  
+>>> Horizontal Scalability:
+   
+    -> Definition: Horizontal scalability, also known as scaling out .
+                   It involves adding more machines (nodes) to distribute the workload and handle increased demand.
 
-
-
-
-                                
-
-
-
+>>> Vertical Scalability: 
     
+    -> Definition: Vertical scalability, also known as scaling up. 
+                   It involves increasing the capacity of a single machine by adding more resources 
+                   like memory, storage, and processing power.
 
 
- 
+>>> PostgreSQL and other SQL databases
 
+  -> PostgreSQL is an advanced open-source database that supports both JSON (non-relational) and SQL (relational) querying.
+     It is known for its integrity, reliability, resilience, performance, and correctness.
 
+  -> On the other hand, SQL Server, developed by Microsoft, is a relational database management system with a comprehensive
+     set of features and tools.
 
+  -> The advantage of PostgreSQL over other SQL databases lies in its open-source license, which allows freedom to modify, 
+     use, and implement it without any charge.
+     
+  -> PostgreSQL also boasts robust extensions, standards compliance, and reliability, making it highly scalable and versatile
+     for various use cases.
+     SQL Server, on the other hand, is known for its industry-leading performance, intelligence across all data with big data clusters,
+     and comprehensive support and tools provided by Microsoft.
 
-
-
-
+  -> PostgreSQL - OLTP ,Performance ,MVCC , Continuty  
+  -> MySQL - WEB Apps, Ease of use , Speed ,Scalability 
